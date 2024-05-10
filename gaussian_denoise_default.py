@@ -16,11 +16,9 @@ axs[1].imshow(J, cmap='gray', vmin=0, vmax=255)
 axs[1].set_title('Nhiễu Gauss')
 
 # Lọc nhiễu Gauss bằng hàm scipy.signal.wiener có sẵn và lưu kết quả
-# K = wiener(J, (3,3))
-K = wiener(J, (3,3), 0.01)
+K = wiener(J, (3,3))
 axs[2].imshow(K, cmap='gray', vmin=0, vmax=255)
-# axs[2].set_title('Lọc nhiễu Gauss \n (RPi 3, mặc định)')
-axs[2].set_title('Lọc nhiễu Gauss \n (RPi 3, var=0.01)')
+axs[2].set_title('Lọc nhiễu Gauss \n (RPi 3, mặc định)')
 
 # Vẽ các ảnh
 for ax in axs:
