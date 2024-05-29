@@ -1,0 +1,111 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[fontsize=12pt]{fontsize}
+\renewcommand{\baselinestretch}{1.25} 
+
+\usepackage[margin=1in]{geometry}
+
+\usepackage[utf8]{vietnam}
+% \usepackage[vietnamese]{babel} 
+
+\usepackage[dvipsnames, table]{xcolor} % for coloring
+\usepackage{amsmath} % extension for math environment
+\usepackage{bm} % bold math symbol
+\usepackage{fancyvrb} % fancy verbatim
+\usepackage{fvextra} % fancy verbatim extra
+    \fvset{breaklines=true}
+
+\usepackage[skip=.5em]{caption} % adjust spacing between figure and caption
+\usepackage{subcaption}
+
+% \usepackage[pdftex]{graphicx}
+% \usepackage{url} 
+\usepackage[bookmarks, 
+    colorlinks=false, 
+    pdfborder={0 0 0}, 
+    pdftitle={Báo cáo BTL Xử lý số tín hiệu}, 
+    pdfauthor={Phạm Khánh}
+]{hyperref} 
+
+\usepackage{tikz} 
+\usetikzlibrary{calc} % for drawing rectangle box at the cover
+
+% FOR TABLE:
+\usepackage{tabularx}
+    \newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1\textwidth}}
+    \newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1\textwidth}}
+    \newcolumntype{R}[1]{>{\raggedleft\arraybackslash}p{#1\textwidth}
+} % custom table environment
+\usepackage{multirow}
+\renewcommand{\arraystretch}{1.2}
+\usepackage{longtable}
+
+\usepackage{enumitem} % adjusting enum and itemize environment
+    \setlist[itemize]{itemsep=0pt, topsep=3pt} % no item separation
+    \setlist[enumerate]{itemsep=0pt, topsep=3pt} 
+\usepackage{float} % forcing figure environment to be placed at an exact location
+
+\setlength{\parskip}{0.5em} % spacing between paragraphs
+\setlength\parindent{0pt} % do not indent the first paragraph
+
+\usepackage{listings} % for embedding code
+\lstset{frame=tb,
+  aboveskip=5mm,
+  belowskip=5mm,
+  showstringspaces=false,
+  columns=flexible,
+  % basicstyle={\small\ttfamily},
+  basicstyle={\ttfamily},
+  lineskip={.1em}, % in case line spacing is too wide
+  % numbers=none,
+  numberstyle=\tiny\color{blue},
+  keywordstyle=\color{red},
+  commentstyle=\color{pink},
+  stringstyle=\color{green},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=4, 
+  numbers=left,
+  frame=single
+}
+
+\usepackage{biblatex}
+\addbibresource{refs.bib}
+
+\begin{document}
+% \renewcommand{\bibname}{Tài liệu tham khảo} % For books, reports
+\renewcommand{\refname}{Tài liệu tham khảo} % For articles
+\renewcommand{\listfigurename}{Danh sách hình minh họa}
+
+\input{title}
+
+\pagenumbering{roman}
+\tableofcontents
+
+\newpage
+\pagenumbering{arabic} 
+
+\section{Giới thiệu}
+
+Lĩnh vực hình ảnh kỹ thuật số luôn phải đối mặt với một thách thức dai dẳng: nhiễu hình ảnh. 
+Sự thay đổi không mong muốn về độ sáng hoặc màu sắc này xuất phát từ các yếu tố như hạn chế của cảm biến hoặc điều kiện ánh sáng yếu, có thể che khuất các chi tiết và làm giảm độ trung thực của hình ảnh. 
+Do đó, đề tài này đề cập đến các kỹ thuật giảm nhiễu hình ảnh thực hiện trên phần cứng Raspberry Pi 3. 
+
+Đề tài này có ứng dụng thực tiễn cao vì hai mục đích chính. 
+Đầu tiên, ảnh số hiện rất phổ biến trong nhiều lĩnh vực khác nhau như nhiếp ảnh, ảnh y tế, hệ thống giám sát... và nhiễu luôn là một vấn đề lớn.
+Thứ hai, các phần cứng nhúng ngày càng phổ biến và có giá thành rẻ hơn, cùng với sức mạnh tính toán ngày càng mạnh mẽ hơn.
+Điều này dẫn đến nhu cầu chỉnh sửa hoặc phát triển thêm các kỹ thuật giảm nhiễu hình ảnh, đáp ứng với sự phát triển của phần cứng.
+
+\section{Mục đích đề tài}
+
+\begin{itemize}
+    \item Tìm hiểu cơ bản kỹ thuật xử lý ảnh nói chung và kỹ thuật giảm nhiễu hình ảnh nói riêng.
+    \item Triển khai thực tế các thuật toán giảm nhiễu hình ảnh trên phần cứng và kiểm nghiệm so với lý thuyết.
+\end{itemize}
+
+\input{1_ly_thuyet.tex}
+\input{2_cong_cu.tex}
+\input{3_thi_nghiem.tex}
+\input{4_conclusion.tex}
+\input{ref.tex}
+
+\end{document}

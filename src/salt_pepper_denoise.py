@@ -5,12 +5,12 @@ import matplotlib.pyplot as plt
 fig, axs = plt.subplots(1, 3)
 
 # Đọc ảnh xám gốc và hiển thị
-I = cv2.imread('images/salt_pepper_orig.bmp', cv2.IMREAD_GRAYSCALE)
+I = cv2.imread('output/salt_pepper_orig.png', cv2.IMREAD_GRAYSCALE)
 axs[0].imshow(I, cmap='gray', vmin=0, vmax=255)
 axs[0].set_title('Ảnh gốc')
 
 # Đọc ảnh nhiễu muối tiêu và hiển thị
-J = cv2.imread('images/salt_pepper_noise.bmp', cv2.IMREAD_GRAYSCALE)
+J = cv2.imread('output/salt_pepper_noise.png', cv2.IMREAD_GRAYSCALE)
 axs[1].imshow(J, cmap='gray', vmin=0, vmax=255)
 axs[1].set_title('Nhiễu muối tiêu')
 
@@ -65,7 +65,7 @@ for ax in axs:
   ax.set_yticks([])
 
 fig.tight_layout(h_pad=2)
-fig.show()
+plt.show()
 
 # Lưu ảnh đã lọc
-cv2.imwrite('images/salt_pepper_denoised_rpi3.bmp', K)
+cv2.imwrite('output/salt_pepper_denoised_rpi3.png', K)
