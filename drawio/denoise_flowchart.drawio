@@ -1,0 +1,90 @@
+<mxfile host="Electron" modified="2024-05-30T09:20:55.731Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.4.8 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="7TrzicybHguPpFpP5I11" version="24.4.8" type="device">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1050" dy="629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="Q-4LTJM0KD3jdyY_kC-U-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Q-4LTJM0KD3jdyY_kC-U-0" target="Q-4LTJM0KD3jdyY_kC-U-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-4LTJM0KD3jdyY_kC-U-0" value="Ảnh không nhiễu&lt;br&gt;(Ảnh màu &lt;br&gt;hoặc ảnh xám)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="40" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-4LTJM0KD3jdyY_kC-U-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Q-4LTJM0KD3jdyY_kC-U-1" target="Q-4LTJM0KD3jdyY_kC-U-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-4LTJM0KD3jdyY_kC-U-1" value="Chuyển về ảnh xám&lt;br&gt;bằng MATLAB" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry y="100" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-4LTJM0KD3jdyY_kC-U-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Q-4LTJM0KD3jdyY_kC-U-2" target="Q-4LTJM0KD3jdyY_kC-U-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-4LTJM0KD3jdyY_kC-U-2" value="Crop ảnh về kích thước&lt;br&gt;không quà 256x256" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry y="160" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-4LTJM0KD3jdyY_kC-U-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Q-4LTJM0KD3jdyY_kC-U-3" target="Q-4LTJM0KD3jdyY_kC-U-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-4LTJM0KD3jdyY_kC-U-3" value="Tạo nhiễu ảnh" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry y="220" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-4LTJM0KD3jdyY_kC-U-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Q-4LTJM0KD3jdyY_kC-U-4" target="Q-4LTJM0KD3jdyY_kC-U-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="320" />
+              <mxPoint x="200" y="20" />
+              <mxPoint x="324" y="20" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q-4LTJM0KD3jdyY_kC-U-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Q-4LTJM0KD3jdyY_kC-U-4" target="Q-4LTJM0KD3jdyY_kC-U-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="320" />
+              <mxPoint x="200" y="20" />
+              <mxPoint x="590" y="20" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q-4LTJM0KD3jdyY_kC-U-4" value="Ảnh nhiễu" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="50" y="280" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-4LTJM0KD3jdyY_kC-U-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Q-4LTJM0KD3jdyY_kC-U-5" target="Q-4LTJM0KD3jdyY_kC-U-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-4LTJM0KD3jdyY_kC-U-5" value="Lọc ảnh nhiễu bằng &lt;br&gt;Python trên Raspberry Pi 3" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="234" y="50" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-4LTJM0KD3jdyY_kC-U-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Q-4LTJM0KD3jdyY_kC-U-6" target="Q-4LTJM0KD3jdyY_kC-U-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-4LTJM0KD3jdyY_kC-U-6" value="File .mat chứa các giá trị điểm ảnh đã xử lý" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="274" y="110" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-4LTJM0KD3jdyY_kC-U-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Q-4LTJM0KD3jdyY_kC-U-7" target="Q-4LTJM0KD3jdyY_kC-U-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="324" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q-4LTJM0KD3jdyY_kC-U-7" value="Đọc file .mat trong MATLAB" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="234" y="240" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-4LTJM0KD3jdyY_kC-U-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Q-4LTJM0KD3jdyY_kC-U-8" target="Q-4LTJM0KD3jdyY_kC-U-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q-4LTJM0KD3jdyY_kC-U-8" value="Lọc ảnh nhiễu bằng MATLAB" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="500" y="140" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-4LTJM0KD3jdyY_kC-U-9" value="So sánh kết quả và &lt;br&gt;vẽ đồ thị trên MATLAB" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="350" y="300" width="180" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

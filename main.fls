@@ -423,11 +423,6 @@ INPUT d:/texlive/2024/texmf-dist/tex/latex/vntex/t5cmtt.fd
 INPUT d:/texlive/2024/texmf-dist/tex/latex/vntex/t5cmtt.fd
 INPUT d:/texlive/2024/texmf-dist/tex/latex/vntex/t5cmtt.fd
 INPUT d:/texlive/2024/texmf-dist/fonts/tfm/vntex/vnr/vntt12.tfm
-INPUT ./images/salt_pepper_gen_noise.png
-INPUT ./images/salt_pepper_gen_noise.png
-INPUT ./images/salt_pepper_gen_noise.png
-INPUT ./images/salt_pepper_gen_noise.png
-INPUT ./images/salt_pepper_gen_noise.png
 INPUT d:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
 INPUT d:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
 INPUT d:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
@@ -440,11 +435,6 @@ INPUT ./images/salt_pepper_noise_matlab.png
 INPUT ./images/salt_pepper_noise_matlab.png
 INPUT ./images/salt_pepper_noise_matlab.png
 INPUT ./images/salt_pepper_noise_matlab.png
-INPUT ./images/salt_pepper_denoise_matlab.png
-INPUT ./images/salt_pepper_denoise_matlab.png
-INPUT ./images/salt_pepper_denoise_matlab.png
-INPUT ./images/salt_pepper_denoise_matlab.png
-INPUT ./images/salt_pepper_denoise_matlab.png
 INPUT ./images/median_filtering_algorithm.png
 INPUT ./images/median_filtering_algorithm.png
 INPUT ./images/median_filtering_algorithm.png
@@ -453,11 +443,6 @@ INPUT ./images/median_filtering_algorithm.png
 INPUT d:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
 INPUT d:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
 INPUT d:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
-INPUT ./images/salt_pepper_denoise_rpi3.png
-INPUT ./images/salt_pepper_denoise_rpi3.png
-INPUT ./images/salt_pepper_denoise_rpi3.png
-INPUT ./images/salt_pepper_denoise_rpi3.png
-INPUT ./images/salt_pepper_denoise_rpi3.png
 INPUT ./images/gaussian_gen_noise.png
 INPUT ./images/gaussian_gen_noise.png
 INPUT ./images/gaussian_gen_noise.png
@@ -468,6 +453,11 @@ INPUT ./images/gaussian_noise_matlab.png
 INPUT ./images/gaussian_noise_matlab.png
 INPUT ./images/gaussian_noise_matlab.png
 INPUT ./images/gaussian_noise_matlab.png
+INPUT ./images/salt_pepper_denoise_matlab.png
+INPUT ./images/salt_pepper_denoise_matlab.png
+INPUT ./images/salt_pepper_denoise_matlab.png
+INPUT ./images/salt_pepper_denoise_matlab.png
+INPUT ./images/salt_pepper_denoise_matlab.png
 INPUT ./images/gaussian_denoise_matlab.png
 INPUT ./images/gaussian_denoise_matlab.png
 INPUT ./images/gaussian_denoise_matlab.png

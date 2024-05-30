@@ -1,15 +1,15 @@
 # Fdb version 4
-["biber main"] 1716951775.96508 "main.bcf" "main.bbl" "main" 1716951784.69565 0
-  "main.bcf" 1716951784.38562 107762 a0215bd1fca63de3d3e50eff100b18c8 "pdflatex"
+["biber main"] 1716951775.96508 "main.bcf" "main.bbl" "main" 1717061108.45292 0
+  "main.bcf" 1717061108.08368 107762 a0215bd1fca63de3d3e50eff100b18c8 "pdflatex"
   "refs.bib" 1716950859.56115 286 5f578d63a6ab6eff88c89843942918d8 ""
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1716951781.58287 "d:/projects/proj_dsp/main.tex" "main.pdf" "main" 1716951784.69647 0
+["pdflatex"] 1717061105.15311 "d:/projects/proj_dsp/main.tex" "main.pdf" "main" 1717061108.4538 0
   "1_ly_thuyet.tex" 1716949269.5702 8681 8508180db44ea8111bff536e72496d4f ""
   "2_cong_cu.tex" 1716949622.63184 1682 aa507a371df06fbb4b0cb5e269836b97 ""
-  "3_thi_nghiem.tex" 1716949269.70514 14358 1758641fc8ddd3c081aa8c4adf8dcea7 ""
+  "3_thi_nghiem.tex" 1717061105.42946 13057 0838329bcc9595cc21059e4ed9d9366b ""
   "4_conclusion.tex" 1716951150.76019 237 16340477e67336228c92497b2902e3c8 ""
   "d:/projects/proj_dsp/main.tex" 1716951762.68555 4110 b5dc8807158a708b4332e7c8695c2f63 ""
   "d:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1716421980.89039 2900 1537cc8184ad1792082cd229ecc269f4 ""
@@ -232,7 +232,7 @@
   "d:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1716423990 5513072 a94ebc97551fc1d79a1276395192e7dd ""
   "d:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1716424213 8221634 20ce79962d6648e01ca52cd75e97973f ""
   "d:/texlive/2024/texmf.cnf" 1716423967.21308 713 baa45e065482d44c4cd81b98ef72c63b ""
-  "images/denoise_flowchart.png" 1716949269.20176 14991 36dd8d907ce7e61fea6721ed72796081 ""
+  "images/denoise_flowchart.png" 1717060910.3917 50052 b669871df2897b9d7460dd705da48769 ""
   "images/gaussian_denoise_matlab.png" 1716949269.35653 92738 490e456b8fc7270512bc795861175de2 ""
   "images/gaussian_denoise_rpi3_default.png" 1716949269.37251 143946 0bc8e8e19232719cf4ed9344f39d3e89 ""
   "images/gaussian_denoise_rpi3_var0p01.png" 1716949269.39423 134947 5cd4a59846c92c1bd4d6ffb8e9757042 ""
@@ -240,18 +240,16 @@
   "images/gaussian_noise_matlab.png" 1716949269.3301 130736 f0c524a88211ac5f558b739a54649dc7 ""
   "images/gray_scale_resolution.jpg" 1716949269.13826 162784 02418c7d34a9f3654ce336d346557d07 ""
   "images/logo_BK.png" 1716949269.07917 73720 f8b32583c14100c513a3ff3ebf138290 ""
-  "images/median_filtering_algorithm.png" 1716949269.41557 24708 e276453c563ff080d517c513b1048d16 ""
+  "images/median_filtering_algorithm.png" 1717061044.84142 36141 d503f5ed8db4f9aebf043324ada0c63f ""
   "images/rpi3.png" 1716949269.11645 1010404 d00647326d78ef75c0780cb0a3fc17ec ""
   "images/salt_and_pepper_noise.png" 1716949269.15926 82829 7689d7a3f4487a70e8538017d3903382 ""
   "images/salt_pepper_denoise_matlab.png" 1716949269.26597 55211 658f756d4dd756b593d78c7f562897cd ""
-  "images/salt_pepper_denoise_rpi3.png" 1716949269.28728 96620 b83bc0b24032c063e5cda553a54feeb9 ""
-  "images/salt_pepper_gen_noise.png" 1716949269.23175 11165 6ff005fac9d10dbb7d7fb14c7c2b6d16 ""
   "images/salt_pepper_noise_matlab.png" 1716949269.24993 94156 3c916b54713bce4ba617c75fd4057d0c ""
-  "main.aux" 1716951784.37162 8545 0a9e5688b91b3b3d36268876fd9e15ac "pdflatex"
+  "main.aux" 1717061108.07231 7709 873f869b6746863e0a226ed36ff410c5 "pdflatex"
   "main.bbl" 1716951778.33071 1990 0435fe7c432e416020b89712b3cfb3f2 "biber main"
-  "main.out" 1716951784.3806 5623 34735ed9f8eb61c22158a902d43d1749 "pdflatex"
-  "main.run.xml" 1716951784.38662 2299 33d8dfeb54dc04cad67f98afaa10639d "pdflatex"
-  "main.toc" 1716951784.38662 2676 765e7451a995540d4d6196f02e353f7a "pdflatex"
+  "main.out" 1717061108.0777 5623 5fb8968773847bf54c93a80f314861dc "pdflatex"
+  "main.run.xml" 1717061108.08668 2299 33d8dfeb54dc04cad67f98afaa10639d "pdflatex"
+  "main.toc" 1717061108.08668 2676 74700765cfa6d653b288bc5214e4d419 "pdflatex"
   "ref.tex" 1716951771.89813 134 708a5473fca9e1a78284e875f3d3795b ""
   "title.tex" 1716949269.73383 1422 6bd86418c8a2504a766b227759f66524 ""
   (generated)

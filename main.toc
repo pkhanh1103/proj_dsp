@@ -13,15 +13,15 @@
 \contentsline {section}{\numberline {5}Tiến hành thí nghiệm}{8}{section.5}%
 \contentsline {subsection}{\numberline {5.1}Triệt nhiễu ảnh muối tiêu}{8}{subsection.5.1}%
 \contentsline {subsubsection}{\numberline {5.1.1}Tạo ảnh nhiễu muối tiêu trên MATLAB}{8}{subsubsection.5.1.1}%
-\contentsline {subsubsection}{\numberline {5.1.2}Lọc ảnh nhiễu muối tiêu trên MATLAB}{9}{subsubsection.5.1.2}%
-\contentsline {subsubsection}{\numberline {5.1.3}Lọc ảnh nhiễu muối tiêu bằng Python trên Raspberry Pi 3}{11}{subsubsection.5.1.3}%
-\contentsline {subsection}{\numberline {5.2}Triệt nhiễu Gauss}{13}{subsection.5.2}%
-\contentsline {subsubsection}{\numberline {5.2.1}Tạo ảnh nhiễu Gauss}{13}{subsubsection.5.2.1}%
-\contentsline {subsubsection}{\numberline {5.2.2}Lọc ảnh nhiễu Gauss trên MATLAB}{15}{subsubsection.5.2.2}%
-\contentsline {subsubsection}{\numberline {5.2.3}Lọc ảnh nhiễu Gauss tiêu bằng Python trên Raspberry Pi 3}{16}{subsubsection.5.2.3}%
-\contentsline {section}{\numberline {6}Kết luận}{18}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Tóm tắt những phát hiện chính}{18}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Mục tiêu đã đạt được}{18}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}Tính hiệu quả của từng phương pháp}{18}{subsection.6.3}%
-\contentsline {subsection}{\numberline {6.4}Hướng phát triển của đề tài}{18}{subsection.6.4}%
-\contentsline {section}{Tài liệu tham khảo}{19}{subsection.6.4}%
+\contentsline {subsubsection}{\numberline {5.1.2}Lọc ảnh nhiễu muối tiêu bằng Python trên Raspberry Pi 3}{9}{subsubsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.2}Triệt nhiễu Gauss}{11}{subsection.5.2}%
+\contentsline {subsubsection}{\numberline {5.2.1}Tạo ảnh nhiễu Gauss}{11}{subsubsection.5.2.1}%
+\contentsline {subsubsection}{\numberline {5.2.2}Lọc ảnh nhiễu muối tiêu trên MATLAB}{13}{subsubsection.5.2.2}%
+\contentsline {subsubsection}{\numberline {5.2.3}Lọc ảnh nhiễu Gauss trên MATLAB}{14}{subsubsection.5.2.3}%
+\contentsline {subsubsection}{\numberline {5.2.4}Lọc ảnh nhiễu Gauss tiêu bằng Python trên Raspberry Pi 3}{15}{subsubsection.5.2.4}%
+\contentsline {section}{\numberline {6}Kết luận}{17}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Tóm tắt những phát hiện chính}{17}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Mục tiêu đã đạt được}{17}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Tính hiệu quả của từng phương pháp}{17}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Hướng phát triển của đề tài}{17}{subsection.6.4}%
+\contentsline {section}{Tài liệu tham khảo}{18}{subsection.6.4}%
