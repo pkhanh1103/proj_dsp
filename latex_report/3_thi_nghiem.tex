@@ -3,8 +3,8 @@
 Các bước thí nghiệm chung:
 
 \begin{enumerate}
-    \item Thêm nhiễu cho ảnh bằng MATLAB
-    \item Xử lý nhiễu bằng MATLAB trên máy tính và xứ lý nhiễu bằng Python trên Raspberry Pi 3
+    \item Thêm nhiễu cho ảnh bằng MATLAB;
+    \item Xử lý nhiễu bằng MATLAB trên máy tính và xứ lý nhiễu bằng Python trên Raspberry Pi 3;
     \item Lấy kết quả MATLAB làm chuẩn để đánh giá kết quả giảm nhiễu ảnh trên Raspberry Pi.
 \end{enumerate}
 
@@ -64,14 +64,16 @@ nexttile, imshow(J), title('Anh nhieu muoi tieu 5%')
 Các bước triển khai hàm lọc trung vị kích thước $3 \times 3$ trên Python như sau (Hình \ref{fig:median_filtering_algorithm}):
 
 \begin{itemize}
-    \item Padding cho ngõ vào: Để không bỏ sót các điểm ảnh ở rìa, ta cần padding cho ảnh ngõ vào. Vì bộ lọc có kích thước 3x3, ta cần padding 1 hàng zero cho rìa trên và dưới, và padding 1 cột zero cho rìa trái và phải.
+    \item Padding cho ngõ vào: Để không bỏ sót các điểm ảnh ở rìa, ta cần padding cho ảnh ngõ vào. 
+    Vì bộ lọc có kích thước 3x3, ta cần padding một hàng zero cho rìa trên và dưới, 
+    và padding một cột zero cho rìa trái và phải.
 
     \item Tìm trung vị: Cho vòng lặp chạy qua từng điểm ảnh. Ở mỗi vòng lặp, xếp các điểm ảnh lân cận vào một mảng, sắp xếp mảng theo thứ tự tăng dần (hoặc giảm dần), và điểm ảnh ngõ ra sẽ là phần tử ở giữa của mảng đã sắp xếp.
 \end{itemize}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=.5\linewidth]{../images/median_filtering_algorithm.png}
+    \includegraphics[width=.65\linewidth]{../images/median_filtering_algorithm.png}
     \caption{Thuật toán lọc trung vị}
     \label{fig:median_filtering_algorithm}
 \end{figure}
@@ -419,7 +421,7 @@ MSE (RPi 3, var=0.01): 39.0874
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=.65\linewidth]{../images/gaussian_compare.png}
+    \includegraphics[width=.55\linewidth]{../images/gaussian_compare.png}
     \caption{So sánh kết quả lọc nhiễu Gauss từ Raspberry Pi 3 so với MATLAB}
 \end{figure}
 
@@ -443,7 +445,7 @@ Thực hiện cùng quy trình thí nghiệm này với các ảnh còn lại tr
 \centering
 \begin{tabular}{|c|cccc|cc|}
 \hline
-\multirow{3}{*}{\textbf{Filename}} & \multicolumn{4}{c|}{\textbf{Mac dinh}} & \multicolumn{2}{c|}{\textbf{Noise = 0.01}} \\ \cline{2-7} 
+\multirow{3}{*}{\textbf{Filename}} & \multicolumn{4}{c|}{\textbf{Mặc định}} & \multicolumn{2}{c|}{\textbf{Noise = 0.01}} \\ \cline{2-7} 
  & \multicolumn{2}{c|}{\textbf{MATLAB}} & \multicolumn{2}{c|}{\textbf{RPi3}} & \multicolumn{1}{c|}{\textbf{MATLAB}} & \textbf{RPi3} \\ \cline{2-7} 
  & \multicolumn{1}{c|}{\textbf{Noise}} & \multicolumn{1}{c|}{\textbf{MSE}} & \multicolumn{1}{c|}{\textbf{Noise}} & \textbf{MSE} & \multicolumn{1}{c|}{\textbf{MSE}} & \textbf{MSE} \\ \hline
 4.1.01 & \multicolumn{1}{c|}{0.0093} & \multicolumn{1}{c|}{35.2312} & \multicolumn{1}{c|}{-4949.0979} & 73.4121 & \multicolumn{1}{c|}{34.3646} & 32.5127 \\ \hline
@@ -472,7 +474,7 @@ Thực hiện cùng quy trình thí nghiệm này với các ảnh còn lại tr
 \centering
 \begin{tabular}{|c|cccc|cc|}
 \hline
-\multirow{3}{*}{\textbf{Filename}} & \multicolumn{4}{c|}{\textbf{Mac dinh}} & \multicolumn{2}{c|}{\textbf{Noise = 0.01}} \\ \cline{2-7} 
+\multirow{3}{*}{\textbf{Filename}} & \multicolumn{4}{c|}{\textbf{Mặc định}} & \multicolumn{2}{c|}{\textbf{Noise = 0.01}} \\ \cline{2-7} 
  & \multicolumn{2}{c|}{\textbf{MATLAB}} & \multicolumn{2}{c|}{\textbf{RPi3}} & \multicolumn{1}{c|}{\textbf{MATLAB}} & \textbf{RPi3} \\ \cline{2-7} 
  & \multicolumn{1}{c|}{\textbf{Noise}} & \multicolumn{1}{c|}{\textbf{MSE}} & \multicolumn{1}{c|}{\textbf{Noise}} & \textbf{MSE} & \multicolumn{1}{c|}{\textbf{MSE}} & \textbf{MSE} \\ \hline
 5.2.08 & \multicolumn{1}{c|}{0.0126} & \multicolumn{1}{c|}{46.9440} & \multicolumn{1}{c|}{-16293.7235} & 61.2985 & \multicolumn{1}{c|}{48.6607} & 47.5992 \\ \hline

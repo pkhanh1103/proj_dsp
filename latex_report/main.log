@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.23)  1 JUN 2024 01:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.23)  1 JUN 2024 01:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1154,91 +1154,91 @@ File: ../images/salt_and_pepper_noise.png Graphic file (type png)
 <use ../images/salt_and_pepper_noise.png>
 Package pdftex.def Info: ../images/salt_and_pepper_noise.png  used on input line 103.
 (pdftex.def)             Requested size: 226.48395pt x 302.93056pt.
- [4] [5 <../images/salt_and_pepper_noise.png (PNG copy)>]) (./2_cong_cu.tex
-Overfull \hbox (27.84122pt too wide) in alignment at lines 19--37
+ [4] [5 <../images/salt_and_pepper_noise.png (PNG copy)>]) (./2_cong_cu.tex [6]
+Overfull \hbox (27.84122pt too wide) in alignment at lines 32--50
  [] [] 
  []
 
-[6]
 <../images/rpi3.png, id=194, 882.29625pt x 583.17876pt>
 File: ../images/rpi3.png Graphic file (type png)
 <use ../images/rpi3.png>
-Package pdftex.def Info: ../images/rpi3.png  used on input line 42.
+Package pdftex.def Info: ../images/rpi3.png  used on input line 55.
 (pdftex.def)             Requested size: 339.72592pt x 224.54675pt.
-) (./3_thi_nghiem.tex [7 <../images/rpi3.png>]
-<../images/denoise_flowchart.png, id=202, 683.55376pt x 362.35374pt>
+) (./3_thi_nghiem.tex [7]
+<../images/denoise_flowchart.png, id=200, 683.55376pt x 362.35374pt>
 File: ../images/denoise_flowchart.png Graphic file (type png)
 <use ../images/denoise_flowchart.png>
 Package pdftex.def Info: ../images/denoise_flowchart.png  used on input line 13.
 (pdftex.def)             Requested size: 452.9679pt x 240.1218pt.
+ [8 <../images/rpi3.png>]
 LaTeX Font Info:    Trying to load font information for T5+cmtt on input line 25.
  (d:/texlive/2024/texmf-dist/tex/latex/vntex/t5cmtt.fd
 File: t5cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-) [8 <../images/denoise_flowchart.png>] (d:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
+) (d:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/02/21 1.10 listings language file
 )
 LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 37.
  (d:/texlive/2024/texmf-dist/tex/latex/base/ts1cmtt.fd
 File: ts1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
-)
-<../images/salt_pepper_noise_matlab.png, id=214, 440.39531pt x 219.06844pt>
+) [9 <../images/denoise_flowchart.png>]
+<../images/salt_pepper_noise_matlab.png, id=228, 440.39531pt x 219.06844pt>
 File: ../images/salt_pepper_noise_matlab.png Graphic file (type png)
 <use ../images/salt_pepper_noise_matlab.png>
 Package pdftex.def Info: ../images/salt_pepper_noise_matlab.png  used on input line 58.
 (pdftex.def)             Requested size: 339.72592pt x 168.99742pt.
- [9 <../images/salt_pepper_noise_matlab.png>]
-<../images/median_filtering_algorithm.png, id=245, 282.05376pt x 472.76625pt>
+<../images/median_filtering_algorithm.png, id=230, 282.05376pt x 472.76625pt>
 File: ../images/median_filtering_algorithm.png Graphic file (type png)
 <use ../images/median_filtering_algorithm.png>
-Package pdftex.def Info: ../images/median_filtering_algorithm.png  used on input line 74.
-(pdftex.def)             Requested size: 226.48395pt x 379.62741pt.
- (d:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
+Package pdftex.def Info: ../images/median_filtering_algorithm.png  used on input line 76.
+(pdftex.def)             Requested size: 294.42636pt x 493.5409pt.
+ [10 <../images/salt_pepper_noise_matlab.png>] (d:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/02/21 1.10 listings language file
-) [10 <../images/median_filtering_algorithm.png>] [11]
-<../images/salt_peper_compare.png, id=300, 468.3096pt x 118.5228pt>
+) [11 <../images/median_filtering_algorithm.png>] [12]
+<../images/salt_peper_compare.png, id=306, 468.3096pt x 118.5228pt>
 File: ../images/salt_peper_compare.png Graphic file (type png)
 <use ../images/salt_peper_compare.png>
-Package pdftex.def Info: ../images/salt_peper_compare.png  used on input line 169.
+Package pdftex.def Info: ../images/salt_peper_compare.png  used on input line 171.
 (pdftex.def)             Requested size: 452.9679pt x 114.64503pt.
- [12] [13 <../images/salt_peper_compare.png (PNG copy)>] [14]
-<../images/gaussian_noise_matlab.png, id=347, 445.665pt x 201.00093pt>
+ [13 <../images/salt_peper_compare.png (PNG copy)>] [14]
+<../images/gaussian_noise_matlab.png, id=345, 445.665pt x 201.00093pt>
 File: ../images/gaussian_noise_matlab.png Graphic file (type png)
 <use ../images/gaussian_noise_matlab.png>
-Package pdftex.def Info: ../images/gaussian_noise_matlab.png  used on input line 267.
+Package pdftex.def Info: ../images/gaussian_noise_matlab.png  used on input line 269.
 (pdftex.def)             Requested size: 339.72592pt x 153.22234pt.
-<../images/wiener_algorithm.png, id=349, 410.53375pt x 442.65375pt>
+ [15 <../images/gaussian_noise_matlab.png>]
+<../images/wiener_algorithm.png, id=375, 410.53375pt x 442.65375pt>
 File: ../images/wiener_algorithm.png Graphic file (type png)
 <use ../images/wiener_algorithm.png>
-Package pdftex.def Info: ../images/wiener_algorithm.png  used on input line 283.
+Package pdftex.def Info: ../images/wiener_algorithm.png  used on input line 285.
 (pdftex.def)             Requested size: 339.72592pt x 366.30154pt.
- [15 <../images/gaussian_noise_matlab.png>] [16 <../images/wiener_algorithm.png>] [17] [18]
-<../images/gaussian_compare.png, id=470, 230.3004pt x 393.6306pt>
+ [16 <../images/wiener_algorithm.png>] [17] [18]
+<../images/gaussian_compare.png, id=461, 230.3004pt x 393.6306pt>
 File: ../images/gaussian_compare.png Graphic file (type png)
 <use ../images/gaussian_compare.png>
-Package pdftex.def Info: ../images/gaussian_compare.png  used on input line 422.
-(pdftex.def)             Requested size: 294.42636pt x 503.27486pt.
+Package pdftex.def Info: ../images/gaussian_compare.png  used on input line 424.
+(pdftex.def)             Requested size: 249.13371pt x 425.82346pt.
  [19] [20 <../images/gaussian_compare.png (PNG copy)>] [21]
 <../images/hist_gaussian_compare_matlab_noise.png, id=505, 366.6498pt x 214.401pt>
 File: ../images/hist_gaussian_compare_matlab_noise.png Graphic file (type png)
 <use ../images/hist_gaussian_compare_matlab_noise.png>
-Package pdftex.def Info: ../images/hist_gaussian_compare_matlab_noise.png  used on input line 513.
+Package pdftex.def Info: ../images/hist_gaussian_compare_matlab_noise.png  used on input line 515.
 (pdftex.def)             Requested size: 339.72592pt x 198.66786pt.
  [22]
 <../images/hist_gaussian_compare_default_mse.png, id=513, 366.168pt x 214.401pt>
 File: ../images/hist_gaussian_compare_default_mse.png Graphic file (type png)
 <use ../images/hist_gaussian_compare_default_mse.png>
-Package pdftex.def Info: ../images/hist_gaussian_compare_default_mse.png  used on input line 523.
+Package pdftex.def Info: ../images/hist_gaussian_compare_default_mse.png  used on input line 525.
 (pdftex.def)             Requested size: 339.72592pt x 198.92303pt.
 <../images/hist_gaussian_compare_var0p01_mse.png, id=516, 366.6498pt x 214.401pt>
 File: ../images/hist_gaussian_compare_var0p01_mse.png Graphic file (type png)
 <use ../images/hist_gaussian_compare_var0p01_mse.png>
-Package pdftex.def Info: ../images/hist_gaussian_compare_var0p01_mse.png  used on input line 539.
+Package pdftex.def Info: ../images/hist_gaussian_compare_var0p01_mse.png  used on input line 541.
 (pdftex.def)             Requested size: 339.72592pt x 198.66786pt.
  [23 <../images/hist_gaussian_compare_matlab_noise.png (PNG copy)> <../images/hist_gaussian_compare_default_mse.png (PNG copy)>]
 <../images/pie_gaussian_compare_var0p01_mse.png, id=525, 320.8788pt x 247.6452pt>
 File: ../images/pie_gaussian_compare_var0p01_mse.png Graphic file (type png)
 <use ../images/pie_gaussian_compare_var0p01_mse.png>
-Package pdftex.def Info: ../images/pie_gaussian_compare_var0p01_mse.png  used on input line 546.
+Package pdftex.def Info: ../images/pie_gaussian_compare_var0p01_mse.png  used on input line 548.
 (pdftex.def)             Requested size: 339.72592pt x 262.19278pt.
 ) (./4_conclusion.tex [24 <../images/hist_gaussian_compare_var0p01_mse.png (PNG copy)> <../images/pie_gaussian_compare_var0p01_mse.png (PNG copy)>]) (./ref.tex [25]) [26
 
@@ -1256,13 +1256,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of TeX's memory you used:
  35058 strings out of 474115
  643169 string characters out of 5747696
- 2047190 words of memory out of 5000000
+ 2035190 words of memory out of 5000000
  56599 multiletter control sequences out of 15000+600000
  575910 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,11n,117p,1163b,2189s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,11n,117p,1163b,2625s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb><d:/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vnbx12.pfb><d:/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vncsc10.pfb><d:/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vnr12.pfb><d:/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vnr6.pfb><d:/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vnr8.pfb><d:/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vnti12.pfb><d:/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vntt10.pfb><d:/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vntt12.pfb>
-Output written on main.pdf (28 pages, 2376940 bytes).
+Output written on main.pdf (28 pages, 2377316 bytes).
 PDF statistics:
  694 PDF objects out of 1000 (max. 8388607)
  598 compressed objects within 6 object streams
