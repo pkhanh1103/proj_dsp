@@ -18,6 +18,8 @@ fprintf("%-15s%-20s%-25s%-10s%-10s\n", ...
 fprintf("%-15s%-10s%-10s%-15s%-10s%-10s%-10s\n", ...
      "Filename", "Noise", "MSE", "Noise", "MSE", "MSE", "MSE");
 
+arr_K1 = [];
+
 for i = 1:length(f)
     fullpath = strcat(path_to_dataset, f(i).name);
     [path, filename, ext] = fileparts(fullpath);
@@ -48,4 +50,7 @@ for i = 1:length(f)
     fprintf("%-15s%-10.4f%-10.4f%-15.4f%-10.4f%-10.4f%-10.4f\n", ...
      filename, K1_noise, mse(I,K1), L1_noise, mse(I,L1), ...
      mse(I,K2), mse(I,L2));
+
+    % Lưu vào mảng
+    arr_K1 = [arr_K1 [K1]];
 end

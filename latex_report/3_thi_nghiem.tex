@@ -173,6 +173,65 @@ MSE (RPi 3): 3.8137
 \textbf{Nhận xét:} Kết quả lọc trung vị từ Python trên Raspberry Pi hiệu quả tương đương MATLAB. 
 Sai số bình phương trung bình giữa ảnh gốc và ảnh đã lọc trên Raspberry Pi 3 và trên MATLAB là giống nhau.
 
+\subsubsection{So sánh trên toàn bộ dữ liệu}
+
+Thực hiện cùng quy trình thí nghiệm này với các ảnh còn lại trong bộ dữ liệu, ta thu được kết quả sau:
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+\textbf{Filename} & \textbf{MATLAB} & \textbf{RPi 3} \\ \hline
+4.1.01 & 9.2762 & 9.2762 \\ \hline
+4.1.02 & 9.8379 & 9.8379 \\ \hline
+4.1.03 & 3.8523 & 3.8523 \\ \hline
+4.1.04 & 5.6225 & 5.6225 \\ \hline
+4.1.05 & 9.2456 & 9.2456 \\ \hline
+4.1.06 & 24.7663 & 24.7663 \\ \hline
+4.1.07 & 3.1220 & 3.1220 \\ \hline
+4.1.08 & 3.9775 & 3.9775 \\ \hline
+4.2.01 & 4.3840 & 4.3840 \\ \hline
+4.2.03 & 40.0398 & 40.0398 \\ \hline
+4.2.05 & 11.7791 & 11.7791 \\ \hline
+4.2.06 & 22.3186 & 22.3186 \\ \hline
+4.2.07 & 7.6638 & 7.6638 \\ \hline
+5.1.09 & 17.4711 & 17.4711 \\ \hline
+5.1.10 & 33.3118 & 33.3118 \\ \hline
+5.1.11 & 2.9275 & 2.9275 \\ \hline
+5.1.12 & 8.4205 & 8.4205 \\ \hline
+5.1.13 & 2.3157 & 2.3157 \\ \hline
+5.1.14 & 24.9310 & 24.9310 \\ \hline
+\end{tabular}
+\hspace{2em}
+\begin{tabular}{|c|c|c|}
+\hline
+\textbf{Filename} & \textbf{MATLAB} & \textbf{RPi 3} \\ \hline
+5.2.08 & 15.6646 & 15.6646 \\ \hline
+5.2.09 & 27.0515 & 27.0515 \\ \hline
+5.2.10 & 33.6905 & 33.6905 \\ \hline
+5.3.01 & 21.9814 & 21.9814 \\ \hline
+5.3.02 & 26.8679 & 26.8679 \\ \hline
+7.1.01 & 10.5943 & 10.5943 \\ \hline
+7.1.02 & 2.5768 & 2.5768 \\ \hline
+7.1.03 & 9.7528 & 9.7528 \\ \hline
+7.1.04 & 9.4150 & 9.4150 \\ \hline
+7.1.05 & 20.9028 & 20.9028 \\ \hline
+7.1.06 & 20.9393 & 20.9393 \\ \hline
+7.1.07 & 16.7227 & 16.7227 \\ \hline
+7.1.08 & 5.2790 & 5.2790 \\ \hline
+7.1.09 & 17.2815 & 17.2815 \\ \hline
+7.1.10 & 10.4176 & 10.4176 \\ \hline
+7.2.01 & 4.5764 & 4.5764 \\ \hline
+boat.512 & 16.9074 & 16.9074 \\ \hline
+gray21.512 & 0.2504 & 0.2504 \\ \hline
+house & 19.9191 & 19.9191 \\ \hline
+ruler.512 & 23.8984 & 23.8984 \\ \hline
+\end{tabular}
+\end{table}
+
+\textbf{Nhận xét}: Vì thuật toán lọc trung vị tương đối dễ triển khai, 
+kết quả lọc từ MATLAB và từ Python trên Raspberry Pi 3 là giống nhau.
+
 \subsection{Lọc nhiễu ảnh Gauss}
 
 \subsubsection{Tạo ảnh nhiễu Gauss}
@@ -375,3 +434,66 @@ MSE (RPi 3, var=0.01): 39.0874
     Khi cung cấp trước tham số công suất nhiễu $\sigma^2 = 0.01$, bộ kit lại cho kết quả lọc tốt hơn MATLAB.
     Cụ thể, sai số trung bình bình phương từ kết quả lọc của Raspberry Pi 3 nhỏ hơn so với của MATLAB ($39.0874 < 41.6963$).
 \end{itemize}
+
+\subsubsection{So sánh trên toàn bộ dữ liệu}
+
+Thực hiện cùng quy trình thí nghiệm này với các ảnh còn lại trong bộ dữ liệu, ta thu được kết quả sau:
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|c|cccc|cc|}
+\hline
+\multirow{3}{*}{\textbf{Filename}} & \multicolumn{4}{c|}{\textbf{Mac dinh}} & \multicolumn{2}{c|}{\textbf{Noise = 0.01}} \\ \cline{2-7} 
+ & \multicolumn{2}{c|}{\textbf{MATLAB}} & \multicolumn{2}{c|}{\textbf{RPi3}} & \multicolumn{1}{c|}{\textbf{MATLAB}} & \textbf{RPi3} \\ \cline{2-7} 
+ & \multicolumn{1}{c|}{\textbf{Noise}} & \multicolumn{1}{c|}{\textbf{MSE}} & \multicolumn{1}{c|}{\textbf{Noise}} & \textbf{MSE} & \multicolumn{1}{c|}{\textbf{MSE}} & \textbf{MSE} \\ \hline
+4.1.01 & \multicolumn{1}{c|}{0.0093} & \multicolumn{1}{c|}{35.2312} & \multicolumn{1}{c|}{-4949.0979} & 73.4121 & \multicolumn{1}{c|}{34.3646} & 32.5127 \\ \hline
+4.1.02 & \multicolumn{1}{c|}{0.0078} & \multicolumn{1}{c|}{26.6458} & \multicolumn{1}{c|}{-2057.6920} & 51.8060 & \multicolumn{1}{c|}{24.8055} & 24.9675 \\ \hline
+4.1.03 & \multicolumn{1}{c|}{0.0120} & \multicolumn{1}{c|}{40.9004} & \multicolumn{1}{c|}{-19870.1450} & 47.5380 & \multicolumn{1}{c|}{43.2635} & 41.0366 \\ \hline
+4.1.04 & \multicolumn{1}{c|}{0.0118} & \multicolumn{1}{c|}{41.7485} & \multicolumn{1}{c|}{-14358.2962} & 68.7183 & \multicolumn{1}{c|}{43.6294} & 41.5368 \\ \hline
+4.1.05 & \multicolumn{1}{c|}{0.0119} & \multicolumn{1}{c|}{43.3974} & \multicolumn{1}{c|}{-20863.6106} & 64.4206 & \multicolumn{1}{c|}{45.4044} & 43.3415 \\ \hline
+4.1.06 & \multicolumn{1}{c|}{0.0151} & \multicolumn{1}{c|}{50.2411} & \multicolumn{1}{c|}{-20531.3964} & 82.0751 & \multicolumn{1}{c|}{52.6044} & 53.7265 \\ \hline
+4.1.07 & \multicolumn{1}{c|}{0.0115} & \multicolumn{1}{c|}{38.3446} & \multicolumn{1}{c|}{-32041.4723} & 46.9728 & \multicolumn{1}{c|}{40.3967} & 37.0458 \\ \hline
+4.1.08 & \multicolumn{1}{c|}{0.0119} & \multicolumn{1}{c|}{40.5311} & \multicolumn{1}{c|}{-29350.5579} & 52.3743 & \multicolumn{1}{c|}{42.9729} & 40.1785 \\ \hline
+4.2.01 & \multicolumn{1}{c|}{0.0105} & \multicolumn{1}{c|}{41.0319} & \multicolumn{1}{c|}{-12996.8919} & 66.2440 & \multicolumn{1}{c|}{41.6784} & 39.5524 \\ \hline
+4.2.03 & \multicolumn{1}{c|}{0.0141} & \multicolumn{1}{c|}{58.9022} & \multicolumn{1}{c|}{-17811.8769} & 73.1133 & \multicolumn{1}{c|}{60.0894} & 62.0433 \\ \hline
+4.2.05 & \multicolumn{1}{c|}{0.0139} & \multicolumn{1}{c|}{47.8020} & \multicolumn{1}{c|}{-33459.0209} & 61.9616 & \multicolumn{1}{c|}{50.0903} & 51.1122 \\ \hline
+4.2.06 & \multicolumn{1}{c|}{0.0140} & \multicolumn{1}{c|}{47.7164} & \multicolumn{1}{c|}{-19410.9745} & 80.2701 & \multicolumn{1}{c|}{50.0511} & 50.1180 \\ \hline
+4.2.07 & \multicolumn{1}{c|}{0.0122} & \multicolumn{1}{c|}{41.9256} & \multicolumn{1}{c|}{-16943.4129} & 67.7821 & \multicolumn{1}{c|}{44.3010} & 42.4176 \\ \hline
+5.1.09 & \multicolumn{1}{c|}{0.0111} & \multicolumn{1}{c|}{47.7691} & \multicolumn{1}{c|}{-16796.5722} & 55.9229 & \multicolumn{1}{c|}{48.9364} & 46.7720 \\ \hline
+5.1.10 & \multicolumn{1}{c|}{0.0157} & \multicolumn{1}{c|}{58.4775} & \multicolumn{1}{c|}{-21107.4482} & 78.2653 & \multicolumn{1}{c|}{60.2243} & 62.2025 \\ \hline
+5.1.11 & \multicolumn{1}{c|}{0.0109} & \multicolumn{1}{c|}{40.4260} & \multicolumn{1}{c|}{-38016.1132} & 48.0063 & \multicolumn{1}{c|}{41.4247} & 40.9802 \\ \hline
+5.1.12 & \multicolumn{1}{c|}{0.0128} & \multicolumn{1}{c|}{45.3810} & \multicolumn{1}{c|}{-36891.2660} & 63.1316 & \multicolumn{1}{c|}{46.6671} & 49.0570 \\ \hline
+5.1.13 & \multicolumn{1}{c|}{0.0244} & \multicolumn{1}{c|}{111.5673} & \multicolumn{1}{c|}{-50761.9816} & 117.1397 & \multicolumn{1}{c|}{105.4671} & 116.2954 \\ \hline
+5.1.14 & \multicolumn{1}{c|}{0.0129} & \multicolumn{1}{c|}{51.0761} & \multicolumn{1}{c|}{-12304.1432} & 74.2564 & \multicolumn{1}{c|}{53.0954} & 52.5074 \\ \hline
+\end{tabular}
+\end{table}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|c|cccc|cc|}
+\hline
+\multirow{3}{*}{\textbf{Filename}} & \multicolumn{4}{c|}{\textbf{Mac dinh}} & \multicolumn{2}{c|}{\textbf{Noise = 0.01}} \\ \cline{2-7} 
+ & \multicolumn{2}{c|}{\textbf{MATLAB}} & \multicolumn{2}{c|}{\textbf{RPi3}} & \multicolumn{1}{c|}{\textbf{MATLAB}} & \textbf{RPi3} \\ \cline{2-7} 
+ & \multicolumn{1}{c|}{\textbf{Noise}} & \multicolumn{1}{c|}{\textbf{MSE}} & \multicolumn{1}{c|}{\textbf{Noise}} & \textbf{MSE} & \multicolumn{1}{c|}{\textbf{MSE}} & \textbf{MSE} \\ \hline
+5.2.08 & \multicolumn{1}{c|}{0.0126} & \multicolumn{1}{c|}{46.9440} & \multicolumn{1}{c|}{-16293.7235} & 61.2985 & \multicolumn{1}{c|}{48.6607} & 47.5992 \\ \hline
+5.2.09 & \multicolumn{1}{c|}{0.0167} & \multicolumn{1}{c|}{57.8253} & \multicolumn{1}{c|}{-33225.4572} & 67.1652 & \multicolumn{1}{c|}{58.4314} & 62.7763 \\ \hline
+5.2.10 & \multicolumn{1}{c|}{0.0139} & \multicolumn{1}{c|}{56.6113} & \multicolumn{1}{c|}{-15226.0315} & 81.3532 & \multicolumn{1}{c|}{57.9642} & 59.3643 \\ \hline
+5.3.01 & \multicolumn{1}{c|}{0.0125} & \multicolumn{1}{c|}{43.6389} & \multicolumn{1}{c|}{-10769.8362} & 65.7852 & \multicolumn{1}{c|}{45.0282} & 46.3524 \\ \hline
+5.3.02 & \multicolumn{1}{c|}{0.0125} & \multicolumn{1}{c|}{51.5868} & \multicolumn{1}{c|}{-7596.2661} & 73.6383 & \multicolumn{1}{c|}{53.2986} & 52.7383 \\ \hline
+7.1.01 & \multicolumn{1}{c|}{0.0108} & \multicolumn{1}{c|}{46.0228} & \multicolumn{1}{c|}{-11980.7130} & 55.3913 & \multicolumn{1}{c|}{46.9575} & 44.1631 \\ \hline
+7.1.02 & \multicolumn{1}{c|}{0.0115} & \multicolumn{1}{c|}{39.7870} & \multicolumn{1}{c|}{-30876.5094} & 41.7975 & \multicolumn{1}{c|}{41.7456} & 39.2065 \\ \hline
+7.1.03 & \multicolumn{1}{c|}{0.0110} & \multicolumn{1}{c|}{44.2193} & \multicolumn{1}{c|}{-17975.5355} & 52.1784 & \multicolumn{1}{c|}{45.4040} & 42.7549 \\ \hline
+7.1.04 & \multicolumn{1}{c|}{0.0104} & \multicolumn{1}{c|}{44.5998} & \multicolumn{1}{c|}{-14420.1253} & 52.3886 & \multicolumn{1}{c|}{45.1665} & 42.0101 \\ \hline
+7.1.05 & \multicolumn{1}{c|}{0.0117} & \multicolumn{1}{c|}{50.1191} & \multicolumn{1}{c|}{-12179.5757} & 66.0205 & \multicolumn{1}{c|}{51.6857} & 50.0475 \\ \hline
+7.1.06 & \multicolumn{1}{c|}{0.0113} & \multicolumn{1}{c|}{49.9953} & \multicolumn{1}{c|}{-8977.6643} & 67.0978 & \multicolumn{1}{c|}{51.0894} & 49.2660 \\ \hline
+7.1.07 & \multicolumn{1}{c|}{0.0111} & \multicolumn{1}{c|}{49.9211} & \multicolumn{1}{c|}{-11985.2352} & 55.9454 & \multicolumn{1}{c|}{51.1771} & 48.5177 \\ \hline
+7.1.08 & \multicolumn{1}{c|}{0.0104} & \multicolumn{1}{c|}{43.1070} & \multicolumn{1}{c|}{-16489.4790} & 46.8678 & \multicolumn{1}{c|}{43.7457} & 41.0177 \\ \hline
+7.1.09 & \multicolumn{1}{c|}{0.0113} & \multicolumn{1}{c|}{49.7544} & \multicolumn{1}{c|}{-16676.8104} & 64.2958 & \multicolumn{1}{c|}{51.0697} & 49.2057 \\ \hline
+7.1.10 & \multicolumn{1}{c|}{0.0108} & \multicolumn{1}{c|}{45.2453} & \multicolumn{1}{c|}{-14688.9014} & 53.0281 & \multicolumn{1}{c|}{46.3296} & 42.9850 \\ \hline
+7.2.01 & \multicolumn{1}{c|}{0.0073} & \multicolumn{1}{c|}{24.0014} & \multicolumn{1}{c|}{-1706.1240} & 70.5824 & \multicolumn{1}{c|}{21.1649} & 19.9642 \\ \hline
+boat.512 & \multicolumn{1}{c|}{0.0131} & \multicolumn{1}{c|}{47.6931} & \multicolumn{1}{c|}{-18492.6913} & 64.2792 & \multicolumn{1}{c|}{49.8632} & 50.1183 \\ \hline
+gray21.512 & \multicolumn{1}{c|}{0.0092} & \multicolumn{1}{c|}{39.9605} & \multicolumn{1}{c|}{-21425.8306} & 67.2078 & \multicolumn{1}{c|}{38.8942} & 37.1617 \\ \hline
+house & \multicolumn{1}{c|}{0.0140} & \multicolumn{1}{c|}{49.9374} & \multicolumn{1}{c|}{-27705.0110} & 64.0971 & \multicolumn{1}{c|}{52.1837} & 52.2799 \\ \hline
+ruler.512 & \multicolumn{1}{c|}{0.0269} & \multicolumn{1}{c|}{139.0348} & \multicolumn{1}{c|}{-47894.1489} & 147.9325 & \multicolumn{1}{c|}{119.3403} & 146.8871 \\ \hline
+\end{tabular}
+\end{table}
