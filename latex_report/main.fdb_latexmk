@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 1717142548.40487 "main.bcf" "main.bbl" "main" 1717176244.98008 0
-  "main.bcf" 1717176244.26299 107762 a0215bd1fca63de3d3e50eff100b18c8 "pdflatex"
-  "refs.bib" 1717142541.2407 295 219ce722218b7cb1d357e37fbfb072e3 ""
+["biber main"] 1717178318.18427 "main.bcf" "main.bbl" "main" 1717178936.91132 0
+  "../refs.bib" 1717178316.28135 1462 4916607e477aa6baae6185efbaf60763 ""
+  "main.bcf" 1717178936.5293 107765 1a52db7f2675b8ac9ad93f257c5441dc "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1717176238.16408 "d:/projects/proj_dsp/latex_report/main.tex" "main.pdf" "main" 1717176244.98181 0
+["pdflatex"] 1717178933.72155 "d:/projects/proj_dsp/latex_report/main.tex" "main.pdf" "main" 1717178936.91219 0
   "../images/denoise_flowchart.png" 1717060910.3917 50052 b669871df2897b9d7460dd705da48769 ""
   "../images/gaussian_compare.png" 1717142541.20837 307913 b506145dd2b4dfbc61ed050efbe5e1b2 ""
   "../images/gaussian_noise_matlab.png" 1716949269.3301 130736 f0c524a88211ac5f558b739a54649dc7 ""
@@ -22,11 +22,11 @@
   "../images/salt_peper_compare.png" 1717142541.21882 89452 f87ff84299be2f0200bd8f13551434c3 ""
   "../images/salt_pepper_noise_matlab.png" 1716949269.24993 94156 3c916b54713bce4ba617c75fd4057d0c ""
   "../images/wiener_algorithm.png" 1717142541.21963 51730 5d21d68f466ddc1f4015c4ce05e3c68c ""
-  "1_ly_thuyet.tex" 1717142541.21963 8852 8c19e8feb5488bd7554015903a7f3017 ""
+  "1_ly_thuyet.tex" 1717176496.73854 8854 5c388ebd173fa65449679285e258cea7 ""
   "2_cong_cu.tex" 1717142541.21963 1728 5bdeda449ac26797eb8ded87ea182829 ""
-  "3_thi_nghiem.tex" 1717176034.61584 27734 25b4d7733371ec38ddc636723a6ac13d ""
-  "4_conclusion.tex" 1717176229.45975 948 0aba358b1d5b7bcf9f4034ad50dc35f8 ""
-  "d:/projects/proj_dsp/latex_report/main.tex" 1717152295.65821 4325 68bda79010d180caceb0c2f636a77fad ""
+  "3_thi_nghiem.tex" 1717176496.61455 27747 1e18dd81c601b73fbc27c869ce3d6466 ""
+  "4_conclusion.tex" 1717178932.64939 1882 6bb476cfea9a37f8e1c01f6418d939ee ""
+  "d:/projects/proj_dsp/latex_report/main.tex" 1717176621.72241 4328 4e4adc8ce68dd19019cd650030bc9257 ""
   "d:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1716421980.89039 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "d:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1716422339.12963 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "d:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1716422186.8299 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
@@ -53,6 +53,7 @@
   "d:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1716421976.8692 1116 933a60c408fc0a863a92debe84b2d294 ""
   "d:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1716421976.8702 1120 8b7d695260f3cff42e636090a8002094 ""
   "d:/texlive/2024/texmf-dist/fonts/tfm/vntex/vnr/vnbx12.tfm" 1716423846.03747 4020 c48f3c7e11edde839ff6260300faa1bb ""
+  "d:/texlive/2024/texmf-dist/fonts/tfm/vntex/vnr/vncsc10.tfm" 1716423846.03946 3328 915efe5837c0b39f09836cbf8f322602 ""
   "d:/texlive/2024/texmf-dist/fonts/tfm/vntex/vnr/vnr10.tfm" 1716423846.04047 3980 a378198bbdb2c6fcd4b722396a62ad27 ""
   "d:/texlive/2024/texmf-dist/fonts/tfm/vntex/vnr/vnr12.tfm" 1716423846.04047 3984 be7b630197255361b12d153ce5e1bc5b ""
   "d:/texlive/2024/texmf-dist/fonts/tfm/vntex/vnr/vnr17.tfm" 1716423846.04047 3992 d482fc893730ca253996c4cee0a15c44 ""
@@ -73,6 +74,7 @@
   "d:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb" 1716421981.00839 136101 f533469f523533d38317ab5729d00c8a ""
   "d:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb" 1716421981.07338 167085 68de377d2744a68a88fa40a1f610615a ""
   "d:/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vnbx12.pfb" 1716423846.07547 41089 cd085a6112214f1ec9535fe0d1ee127f ""
+  "d:/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vncsc10.pfb" 1716423846.07746 41115 0656009cce5da93b639dc9d869f1af5e ""
   "d:/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vnr12.pfb" 1716423846.07947 40319 02110ade360715fbba33c66db50ef607 ""
   "d:/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vnr6.pfb" 1716423846.08047 41329 347fce17df5390efebfa22c90ac72c92 ""
   "d:/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vnr8.pfb" 1716423846.08047 41310 310d863e4c8e005265dc9ba6af1579a2 ""
@@ -250,11 +252,11 @@
   "d:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1716423990 5513072 a94ebc97551fc1d79a1276395192e7dd ""
   "d:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1716424213 8221634 20ce79962d6648e01ca52cd75e97973f ""
   "d:/texlive/2024/texmf.cnf" 1716423967.21308 713 baa45e065482d44c4cd81b98ef72c63b ""
-  "main.aux" 1717176244.24973 7622 68155e00832bcbb0edc60128ac54213e "pdflatex"
-  "main.bbl" 1717142550.69324 1990 0435fe7c432e416020b89712b3cfb3f2 "biber main"
-  "main.out" 1717176244.25077 5067 9c38ff39c37e1fd5da224738c5ef05a0 "pdflatex"
-  "main.run.xml" 1717176244.26299 2299 33d8dfeb54dc04cad67f98afaa10639d "pdflatex"
-  "main.toc" 1717176244.271 2456 119989f5e99b3a059765d72152b93c82 "pdflatex"
+  "main.aux" 1717178936.5213 7970 39179a2d7aab47885ffb27f50c7205b4 "pdflatex"
+  "main.bbl" 1717178323.54189 7080 baf75e3532e97094828af3e95c87965f "biber main"
+  "main.out" 1717178936.52431 5136 0c8d5c760b3ff57f69e8657c375b66a7 "pdflatex"
+  "main.run.xml" 1717178936.53231 2302 2c9858cd1b684cfb4f8b65dfbdad0b03 "pdflatex"
+  "main.toc" 1717178936.53231 2469 965eadec5fed3e2989e061b4d72bc5a6 "pdflatex"
   "ref.tex" 1717142541.2407 140 4e5200e178b70dae24b0b08aed8c16ce ""
   "title.tex" 1717142541.2407 1467 8afdf66e6e35a70b4561bce2d7c7ae8a ""
   (generated)

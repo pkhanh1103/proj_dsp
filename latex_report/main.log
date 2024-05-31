@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.23)  1 JUN 2024 00:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.23)  1 JUN 2024 01:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1248,24 +1248,24 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 9C38FF39C37E1FD5DA224738C5EF05A0;5067.
+(rerunfilecheck)             Checksum: 0C8D5C760B3FF57F69E8657C375B66A7;5136.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35030 strings out of 474115
- 642362 string characters out of 5747696
+ 35058 strings out of 474115
+ 643169 string characters out of 5747696
  2047190 words of memory out of 5000000
- 56577 multiletter control sequences out of 15000+600000
- 575102 words of font info for 71 fonts, out of 8000000 for 9000
+ 56599 multiletter control sequences out of 15000+600000
+ 575910 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,11n,117p,1163b,2189s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb><d:/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vnbx12.pfb><d:/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vnr12.pfb><d:/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vnr6.pfb><d:/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vnr8.pfb><d:/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vnti12.pfb><d:/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vntt10.pfb><d:/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vntt12.pfb>
-Output written on main.pdf (28 pages, 2364975 bytes).
+<d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb><d:/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vnbx12.pfb><d:/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vncsc10.pfb><d:/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vnr12.pfb><d:/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vnr6.pfb><d:/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vnr8.pfb><d:/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vnti12.pfb><d:/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vntt10.pfb><d:/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vntt12.pfb>
+Output written on main.pdf (28 pages, 2376940 bytes).
 PDF statistics:
- 680 PDF objects out of 1000 (max. 8388607)
- 586 compressed objects within 6 object streams
- 294 named destinations out of 1000 (max. 500000)
+ 694 PDF objects out of 1000 (max. 8388607)
+ 598 compressed objects within 6 object streams
+ 299 named destinations out of 1000 (max. 500000)
  288 words of extra memory for PDF output out of 10000 (max. 10000000)
 

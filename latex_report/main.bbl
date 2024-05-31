@@ -19,6 +19,57 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{BMVT2015}{book}{}
+      \name{author}{1}{}{%
+        {{hash=fc19e51cd12186533137650f8eb64a6a}{%
+           family={{Bộ môn Viễn Thông}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Trường Đại học Bách khoa - ĐHQG TPHCM}%
+      }
+      \strng{namehash}{fc19e51cd12186533137650f8eb64a6a}
+      \strng{fullhash}{fc19e51cd12186533137650f8eb64a6a}
+      \strng{bibnamehash}{fc19e51cd12186533137650f8eb64a6a}
+      \strng{authorbibnamehash}{fc19e51cd12186533137650f8eb64a6a}
+      \strng{authornamehash}{fc19e51cd12186533137650f8eb64a6a}
+      \strng{authorfullhash}{fc19e51cd12186533137650f8eb64a6a}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Tài liệu Thí nghiệm Xử lý số tín hiệu}
+      \field{year}{2015}
+      \true{nocite}
+    \endentry
+    \entry{Boyat2015}{article}{}
+      \name{author}{2}{}{%
+        {{hash=82814a14e5ad462da79e538275b0c1d7}{%
+           family={Boyat},
+           familyi={B\bibinitperiod},
+           given={Ajay\bibnamedelima Kumar},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=6af2e7edb7e7a1bfc77ffaab9d961b11}{%
+           family={Joshi},
+           familyi={J\bibinitperiod},
+           given={Brijendra\bibnamedelima Kumar},
+           giveni={B\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{6085412882ca88ca5fe6741440e1550c}
+      \strng{fullhash}{6085412882ca88ca5fe6741440e1550c}
+      \strng{bibnamehash}{6085412882ca88ca5fe6741440e1550c}
+      \strng{authorbibnamehash}{6085412882ca88ca5fe6741440e1550c}
+      \strng{authornamehash}{6085412882ca88ca5fe6741440e1550c}
+      \strng{authorfullhash}{6085412882ca88ca5fe6741440e1550c}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Signal and Image Processing An International Journal}
+      \field{title}{A review paper: noise models in digital image processing}
+      \field{year}{2015}
+      \true{nocite}
+    \endentry
     \entry{Jayaraman2009}{book}{}
       \name{author}{3}{}{%
         {{hash=b3245d36e30c6ba31314e7c89071f683}{%
@@ -54,6 +105,74 @@
       \field{volume}{7014}
       \field{year}{2009}
       \true{nocite}
+    \endentry
+    \entry{Pratt1972}{article}{}
+      \name{author}{1}{}{%
+        {{hash=dcbd63da91c0160538d394b63eb800de}{%
+           family={Pratt},
+           familyi={P\bibinitperiod},
+           given={William\bibnamedelima K},
+           giveni={W\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{dcbd63da91c0160538d394b63eb800de}
+      \strng{fullhash}{dcbd63da91c0160538d394b63eb800de}
+      \strng{bibnamehash}{dcbd63da91c0160538d394b63eb800de}
+      \strng{authorbibnamehash}{dcbd63da91c0160538d394b63eb800de}
+      \strng{authornamehash}{dcbd63da91c0160538d394b63eb800de}
+      \strng{authorfullhash}{dcbd63da91c0160538d394b63eb800de}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Computers}
+      \field{number}{7}
+      \field{title}{Generalized Wiener filtering computation techniques}
+      \field{volume}{100}
+      \field{year}{1972}
+      \true{nocite}
+      \field{pages}{636\bibrangedash 641}
+      \range{pages}{6}
+    \endentry
+    \entry{USC-SIPI}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=93c20e89aa1233e811f631c6877837de}{%
+           family={{Signal and Image Processing Institute - University of Southern California}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{93c20e89aa1233e811f631c6877837de}
+      \strng{fullhash}{93c20e89aa1233e811f631c6877837de}
+      \strng{bibnamehash}{93c20e89aa1233e811f631c6877837de}
+      \strng{authorbibnamehash}{93c20e89aa1233e811f631c6877837de}
+      \strng{authornamehash}{93c20e89aa1233e811f631c6877837de}
+      \strng{authorfullhash}{93c20e89aa1233e811f631c6877837de}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The USC-SIPI Image Database}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://sipi.usc.edu/database/database.php
+      \endverb
+      \verb{url}
+      \verb https://sipi.usc.edu/database/database.php
+      \endverb
+    \endentry
+    \entry{wiener}{misc}{}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labeltitlesource}{title}
+      \field{title}{Tài liệu tham khảo hàm wiener() của module SciPy}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.wiener.html
+      \endverb
+      \verb{url}
+      \verb https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.wiener.html
+      \endverb
     \endentry
   \enddatalist
 \endrefsection

@@ -1,13 +1,21 @@
 \pagebreak
 \section{Kết luận}
 
-Đề tài đã thành công lọc được hai loại nhiễu cơ bản trong xử lý ảnh là nhiễu muối tiêu và nhiễu Gauss trên Raspberry Pi 3, 
-so sánh kết quả trên MATLAB cho kết quả rất gần với ảnh gốc, 
-phù hợp với yêu cầu đề ra.
+Đề tài đã thành công lọc được hai loại nhiễu cơ bản trong xử lý ảnh là nhiễu muối tiêu và nhiễu Gauss trên Raspberry Pi 3.
+Kết quả cho thấy rằng phương pháp giảm nhiễu trên Raspberry Pi 3 có thể đạt được sai số thấp và kết quả gần với ảnh gốc. 
+Trong phần lớn trường hợp, kết quả từ Raspberry Pi 3 không đạt được hiệu suất tốt như trên MATLAB.
 
-% Từ kết quả thực nghiệm cho thấy việc xử lý ảnh qua MATLAB hoặc Raspberry Pi 3 đều cho cùng một sai số bình phương trung bình với sai số nhỏ không đáng kể. 
-% Do đó phương pháp áp dụng cho đề tài này đạt hiệu quả. 
+Sự khác biệt trong kết quả giữa Raspberry Pi 3 và MATLAB có thể do nhiều yếu tố, 
+bao gồm sự khác biệt trong thuật toán, cấu trúc phần cứng, hoặc việc triển khai thuật toán trên hai nền tảng khác nhau. 
+Cải thiện có thể được thực hiện bằng cách tối ưu hóa thuật toán hoặc sử dụng phần cứng mạnh mẽ hơn để xử lý ảnh.
 
-Trong giới hạn của đề tài chỉ xử lý ảnh đầu vào 256x256 điểm ảnh, 
-ta có thể rộng ảnh lớn hơn kết quả này để xử lý ảnh với độ sắc nét cao hơn.
-Ngoài ra cũng chỉ xử lý hàng loạt 2 loại nhiễu cơ bản, có thể mở rộng ra xử lý thêm các loại nhiễu khác.
+Đề tài này mở ra nhiều hướng nghiên cứu tiếp theo:
+\begin{itemize}
+    \item Tối ưu hóa các phương pháp giảm nhiễu để tăng hiệu suất và độ chính xác trên Raspberry Pi 3. 
+    \item Nghiên cứu và áp dụng các phương pháp giảm nhiễu nhằm cải thiện kết quả. 
+    \item Khảo sát và áp dụng các công nghệ phần cứng mới cho tác vụ giảm nhiễu hình ảnh.
+    \item Nghiên cứu các phương pháp tự động điều chỉnh tham số để tối ưu hóa việc giảm nhiễu.
+\end{itemize}
+
+Tổng kết lại, việc giảm nhiễu hình ảnh bằng Raspberry Pi 3 là một đề tài quan trọng và có tiềm năng. 
+Mặc dù đã đạt được một số kết quả tích cực, việc tiếp tục nghiên cứu và phát triển là cần thiết để cải thiện hiệu suất và độ chính xác của phương pháp trên nền tảng này.
