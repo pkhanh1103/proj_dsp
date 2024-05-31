@@ -358,9 +358,9 @@ MSE (RPi 3, mac dinh): 66.0795
 MSE (RPi 3, var=0.01): 39.0874
 \end{lstlisting}
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
-    \includegraphics[width=.6\linewidth]{../images/gaussian_compare.png}
+    \includegraphics[width=.5\linewidth]{../images/gaussian_compare.png}
     \caption{So sánh kết quả lọc nhiễu Gauss từ Raspberry Pi 3 so với MATLAB}
 \end{figure}
 
@@ -369,9 +369,9 @@ MSE (RPi 3, var=0.01): 39.0874
     \item \textbf{Trường hợp tự ước lượng công suất nhiễu bằng phần mềm}: 
     MATLAB ước lượng tốt công suất nhiễu (0.0105 so với 0.010), do đó cho kết quả lọc tương đối tốt.
     Trong khi đó, thư viện scipy của Python trên Raspberry Pi 3 ước lượng công suất nhiễu chệch rất nhiều so với công suất nhiễu thực tế (-13035.2815 so với 0.01), do đó cho kết quả lọc tệ hơn.
-    Điều này thể hiện ở MSE của MATLAB thấp hơn ($41.1119 < 66.0795$).
+    Điều này thể hiện ở MSE của MATLAB nhỏ hơn đáng kể ($41.1119 < 66.0795$).
 
     \item \textbf{Trường hợp cung cấp trước tham số công suất nhiễu}:
     Khi cung cấp trước tham số công suất nhiễu $\sigma^2 = 0.01$, bộ kit lại cho kết quả lọc tốt hơn MATLAB.
-    Cụ thể, sai số trung bình bình phương từ kết quả lọc của Raspberry Pi 3 thấp hơn của MATLAB ($39.0874 < 41.6963$).
+    Cụ thể, sai số trung bình bình phương từ kết quả lọc của Raspberry Pi 3 nhỏ hơn so với của MATLAB ($39.0874 < 41.6963$).
 \end{itemize}

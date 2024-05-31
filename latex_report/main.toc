@@ -19,9 +19,9 @@
 \contentsline {subsubsection}{\numberline {5.2.1}Tạo ảnh nhiễu Gauss}{13}{subsubsection.5.2.1}%
 \contentsline {subsubsection}{\numberline {5.2.2}Lọc ảnh nhiễu Gauss bằng Python trên Raspberry Pi 3}{14}{subsubsection.5.2.2}%
 \contentsline {subsubsection}{\numberline {5.2.3}So sánh kết quả với MATLAB}{17}{subsubsection.5.2.3}%
-\contentsline {section}{\numberline {6}Kết luận}{18}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Tóm tắt những phát hiện chính}{18}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Mục tiêu đã đạt được}{18}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}Tính hiệu quả của từng phương pháp}{18}{subsection.6.3}%
-\contentsline {subsection}{\numberline {6.4}Hướng phát triển của đề tài}{18}{subsection.6.4}%
-\contentsline {section}{Tài liệu tham khảo}{20}{subsection.6.4}%
+\contentsline {section}{\numberline {6}Kết luận}{20}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Tóm tắt những phát hiện chính}{20}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Mục tiêu đã đạt được}{20}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Tính hiệu quả của từng phương pháp}{20}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Hướng phát triển của đề tài}{20}{subsection.6.4}%
+\contentsline {section}{Tài liệu tham khảo}{21}{subsection.6.4}%

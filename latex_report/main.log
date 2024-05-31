@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.23)  31 MAY 2024 14:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.23)  31 MAY 2024 15:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1217,12 +1217,8 @@ Package pdftex.def Info: ../images/wiener_algorithm.png  used on input line 224.
 File: ../images/gaussian_compare.png Graphic file (type png)
 <use ../images/gaussian_compare.png>
 Package pdftex.def Info: ../images/gaussian_compare.png  used on input line 363.
-(pdftex.def)             Requested size: 271.7835pt x 464.57018pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) (./4_conclusion.tex) (./ref.tex [18] [19 <../images/gaussian_compare.png (PNG copy)>]) [20
+(pdftex.def)             Requested size: 226.48395pt x 387.10678pt.
+ [18]) (./4_conclusion.tex) (./ref.tex [19 <../images/gaussian_compare.png (PNG copy)>] [20]) [21
 
 ] (./main.aux)
  ***********
@@ -1236,18 +1232,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34986 strings out of 474115
- 640507 string characters out of 5747696
+ 34987 strings out of 474115
+ 640514 string characters out of 5747696
  2045190 words of memory out of 5000000
  56543 multiletter control sequences out of 15000+600000
  575102 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,10n,117p,1163b,2189s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb><d:/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vnbx12.pfb><d:/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vnr12.pfb><d:/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vnr6.pfb><d:/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vnr8.pfb><d:/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vnti12.pfb><d:/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vntt10.pfb><d:/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vntt12.pfb>
-Output written on main.pdf (23 pages, 2287821 bytes).
+Output written on main.pdf (24 pages, 2288064 bytes).
 PDF statistics:
- 652 PDF objects out of 1000 (max. 8388607)
- 567 compressed objects within 6 object streams
- 284 named destinations out of 1000 (max. 500000)
+ 656 PDF objects out of 1000 (max. 8388607)
+ 570 compressed objects within 6 object streams
+ 285 named destinations out of 1000 (max. 500000)
  284 words of extra memory for PDF output out of 10000 (max. 10000000)
 
