@@ -10,7 +10,7 @@ Các bước thí nghiệm chung:
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\linewidth]{images/denoise_flowchart.png}
+    \includegraphics[width=\linewidth]{../images/denoise_flowchart.png}
     \caption{Quy trình thí nghiệm}
 \end{figure}
 
@@ -24,7 +24,7 @@ Trong đó, $W$ và $H$ là chiều rộng và chiều cao ảnh, $x$ là ảnh 
 
 Ta tìm MSE bằng hàm \verb|mse| có sẵn của MATLAB.
 
-\subsection{Triệt nhiễu ảnh muối tiêu}
+\subsection{Lọc nhiễu ảnh muối tiêu}
 
 \subsubsection{Tạo ảnh nhiễu muối tiêu trên MATLAB}
 
@@ -42,20 +42,20 @@ if (rows > 256), I = imresize(I, [256 NaN]), end;
 if (cols > 256), I = imresize(I, [NaN 256]), end;
 
 % Luu anh xam da crop va hien thi anh
-imwrite(I, 'images/salt_pepper_orig.bmp')
+imwrite(I, '../images/salt_pepper_orig.bmp')
 nexttile, imshow(I), title('Anh goc')
 
 % Them nhieu muoi tieu voi mat do 0.05
 J = imnoise(I, 'salt & pepper', 0.05);
 
 % Luu anh da duoc tao nhieu va hien thi anh
-imwrite(J, 'images/salt_pepper_noise.bmp')
+imwrite(J, '../images/salt_pepper_noise.bmp')
 nexttile, imshow(J), title('Anh nhieu muoi tieu 5%')
 \end{lstlisting}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=.75\linewidth]{images/salt_pepper_noise_matlab.png}
+    \includegraphics[width=.75\linewidth]{../images/salt_pepper_noise_matlab.png}
     \caption{Tạo ảnh nhiễu muối tiêu trên MATLAB}
 \end{figure}
 
@@ -69,9 +69,9 @@ Các bước triển khai hàm lọc trung vị kích thước $3 \times 3$ trê
     \item Tìm trung vị: Cho vòng lặp chạy qua từng điểm ảnh. Ở mỗi vòng lặp, xếp các điểm ảnh lân cận vào một mảng, sắp xếp mảng theo thứ tự tăng dần (hoặc giảm dần), và điểm ảnh ngõ ra sẽ là phần tử ở giữa của mảng đã sắp xếp.
 \end{itemize}
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
-    \includegraphics[width=.75\linewidth]{images/median_filtering_algorithm.png}
+    \includegraphics[width=.5\linewidth]{../images/median_filtering_algorithm.png}
     \caption{Thuật toán lọc trung vị}
     \label{fig:median_filtering_algorithm}
 \end{figure}
@@ -166,14 +166,14 @@ MSE (RPi 3): 3.8137
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\linewidth]{images/salt_peper_compare.png}
+    \includegraphics[width=1\linewidth]{../images/salt_peper_compare.png}
     \caption{So sánh kết quả lọc trung vị từ Raspberry Pi 3 so với MATLAB}
 \end{figure}
 
 \textbf{Nhận xét:} Kết quả lọc trung vị từ Python trên Raspberry Pi hiệu quả tương đương MATLAB. 
 Sai số bình phương trung bình giữa ảnh gốc và ảnh đã lọc trên Raspberry Pi 3 và trên MATLAB là giống nhau.
 
-\subsection{Triệt nhiễu Gauss}
+\subsection{Lọc nhiễu ảnh Gauss}
 
 \subsubsection{Tạo ảnh nhiễu Gauss}
 
@@ -192,20 +192,20 @@ if (rows > 256), I = imresize(I, [256 NaN]); end;
 if (cols > 256), I = imresize(I, [NaN 256]); end;
 
 % Luu anh xam da crop va hien thi anh
-imwrite(I, 'images/gaussian_orig.bmp');
+imwrite(I, '../images/gaussian_orig.bmp');
 nexttile, imshow(I), title('Anh goc');
 
 % Them nhieu Gauss voi trung binh 0, phuong sai 0.05
 J = imnoise(I, 'gaussian');
 
 % Luu anh da duoc tao nhieu va hien thi anh
-imwrite(J, 'images/gaussian_noise.bmp');
+imwrite(J, '../images/gaussian_noise.bmp');
 nexttile, imshow(J), title('Anh nhieu Gauss mu=0, var=0.05');
 \end{lstlisting}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=.75\linewidth]{images/gaussian_noise_matlab.png}
+    \includegraphics[width=.75\linewidth]{../images/gaussian_noise_matlab.png}
     \caption{Ảnh nhiễu Gauss tạo từ MATLAB}
     \label{fig:gaussian_noise_matlab}
 \end{figure}
@@ -215,13 +215,25 @@ Nếu không cung cấp thêm tham số, mặc định MATLAB sẽ tạo nhiễu
 \subsubsection{Lọc ảnh nhiễu Gauss bằng Python trên Raspberry Pi 3}
 
 Với Python trên Raspberry Pi 3, ta lọc ảnh bằng bộ lọc Wiener với hàm \texttt{wiener()} của thư viện \texttt{scipy.signal}. 
-Wiener là bộ lọc thông thấp một hình ảnh có giá trị cường độ bị suy hao bởi nhiễu cộng có công suất hằng. 
+Wiener là bộ lọc thông thấp cho một hình ảnh có giá trị cường độ bị suy hao bởi nhiễu cộng có công suất hằng. 
 Với mỗi điểm ảnh, bộ lọc sẽ tìm trung bình và độ lệch chuẩn cục bộ trong một lân cận có kích thước được định sẵn.
+Thuật toán của hàm \texttt{wiener()} được mô tả ở hình \ref{fig:wiener_algorithm}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.75\linewidth]{../images/wiener_algorithm.png}
+    \caption{Thuật toán của hàm \texttt{wiener()}}
+    \label{fig:wiener_algorithm}
+\end{figure}
 
 Nếu không cung cấp thêm tham số kích thước bộ lọc và công suất nhiễu,
-mặc định hàm \texttt{scipy.signal.wiener} sẽ ước lượng công suất nhiễu trước khi thực hiện quá trình lọc.
+mặc định hàm \texttt{scipy.signal.wiener()} sẽ:
+\begin{itemize}
+    \item Chọn kích thước cửa sổ lọc là $3 \times 3$;
+    \item Ước lượng công suất nhiễu.
+\end{itemize}
 
-Tuy nhiên, cho tới phiên bản Scipy 1.13, hàm \texttt{wiener} không trả về giá trị được ước lượng của công suất.
+Tuy nhiên, cho tới phiên bản Scipy 1.13, hàm \texttt{wiener()} không trả về giá trị được ước lượng của công suất.
 Do đó ta tiến hành chỉnh sửa lại mã nguồn của hàm này như sau:
 
 \begin{lstlisting}[language=Python]
@@ -253,6 +265,7 @@ def wiener(im, mysize=None, noise=None):
 
     return [out, noise]
 \end{lstlisting}
+
 
 Ta tiến hành thí nghiệm với hai trường hợp:
 \begin{enumerate}
@@ -293,7 +306,7 @@ mặc định MATLAB sẽ dùng cửa sổ lọc có kích thước $3 \times 3$
 và ước lượng công suất nhiễu trước khi thực hiện quá trình lọc.
 
 Tiếp đến, ta vẽ ảnh đã lọc từ MATLAB và từ Raspberry Pi 3, 
-đồng thời đánh giá các kết quả này dựa trên sai số bình phương trunb bình giữa ảnh đã lọc và ảnh gốc.
+đồng thời đánh giá các kết quả này dựa trên sai số bình phương trung bình giữa ảnh đã lọc và ảnh gốc.
 
 \begin{lstlisting}[language=MATLAB]
 fig = figure("Position", [0 0 800 500]);
@@ -333,12 +346,32 @@ fprintf('MSE (RPi 3, default): %.4f\n', mse(I, L1));
 fprintf('MSE (RPi 3, var=0.01): %.4f\n', mse(I, L2));
 \end{lstlisting}
 
-\begin{figure}[H]
+\begin{lstlisting}[style=output]
+Cong suat nhieu uoc luong (truong hop khong cung cap tham so nhieu)
+MATLAB: 0.0105
+Raspberry Pi 3: -13035.2815
+
+Sai so binh phuong trung binh giua anh goc va anh da loc:
+MSE (MATLAB, mac dinh): 41.1119
+MSE (MATLAB, var=0.01): 41.6963
+MSE (RPi 3, mac dinh): 66.0795
+MSE (RPi 3, var=0.01): 39.0874
+\end{lstlisting}
+
+\begin{figure}[h]
     \centering
-    \includegraphics[width=1\linewidth]{images/gaussian_compare.png}
+    \includegraphics[width=.6\linewidth]{../images/gaussian_compare.png}
     \caption{So sánh kết quả lọc nhiễu Gauss từ Raspberry Pi 3 so với MATLAB}
 \end{figure}
 
-\textbf{Nhận xét}: Hàm \texttt{wiener2} của MATLAB ước lượng tốt công suất nhiễu (0.0105 so với 0.010), do đó cho kết quả lọc tương đối tốt. 
+\textbf{Nhận xét}: 
+\begin{itemize}
+    \item \textbf{Trường hợp tự ước lượng công suất nhiễu bằng phần mềm}: 
+    MATLAB ước lượng tốt công suất nhiễu (0.0105 so với 0.010), do đó cho kết quả lọc tương đối tốt.
+    Trong khi đó, thư viện scipy của Python trên Raspberry Pi 3 ước lượng công suất nhiễu chệch rất nhiều so với công suất nhiễu thực tế (-13035.2815 so với 0.01), do đó cho kết quả lọc tệ hơn.
+    Điều này thể hiện ở MSE của MATLAB thấp hơn ($41.1119 < 66.0795$).
 
-Khả năng ước lượng công suất nhiễu của thư viện scipy kém, dẫn đến kết quả lọc chưa tốt nếu không cung cấp tham số này. Với tham số công suất nhiễu được cung cấp, bộ lọc tỏ ra hiệu quả và kết quả lọc rất gần với kết quả của MATLAB và ảnh gốc.
+    \item \textbf{Trường hợp cung cấp trước tham số công suất nhiễu}:
+    Khi cung cấp trước tham số công suất nhiễu $\sigma^2 = 0.01$, bộ kit lại cho kết quả lọc tốt hơn MATLAB.
+    Cụ thể, sai số trung bình bình phương từ kết quả lọc của Raspberry Pi 3 thấp hơn của MATLAB ($39.0874 < 41.6963$).
+\end{itemize}

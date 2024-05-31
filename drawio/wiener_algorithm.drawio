@@ -1,0 +1,91 @@
+<mxfile host="Electron" modified="2024-05-31T06:23:13.984Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.4.8 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="THcQbNzGk5NTo6_r5_IC" version="24.4.8" type="device">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1000" dy="599" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="BI_WUHRkU8jOXSc70Ab7-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oVPd4O4VAUAXnWLhdtpO-2" target="BI_WUHRkU8jOXSc70Ab7-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oVPd4O4VAUAXnWLhdtpO-2" value="&lt;ol&gt;&lt;li&gt;Ảnh ngõ vào `X`&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Kích thước cửa sổ lọc `d\times d` &lt;br&gt;(tùy chọn)&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Công suất nhiễu `sigma^2` &lt;br&gt;(tùy chọn)&lt;/li&gt;&lt;/ol&gt;" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=11;align=left;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="BI_WUHRkU8jOXSc70Ab7-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PT52hOmJ2-Wrh06CAvcp-1" target="BI_WUHRkU8jOXSc70Ab7-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PT52hOmJ2-Wrh06CAvcp-1" value="Trung bình cục bộ:&lt;br&gt;`\mu = (&quot;corr&quot;(X,I_d))/(d^2)`" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=11;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry y="300" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PT52hOmJ2-Wrh06CAvcp-18" value="Ảnh &lt;br style=&quot;font-size: 11px;&quot;&gt;ngõ ra `Y`" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Lucida Console;fontSize=11;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="280" y="370" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BI_WUHRkU8jOXSc70Ab7-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BI_WUHRkU8jOXSc70Ab7-0" target="BI_WUHRkU8jOXSc70Ab7-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BI_WUHRkU8jOXSc70Ab7-0" value="Phương sai cục bộ:&lt;br&gt;`v = (&quot;corr&quot;(X^2,I_d))/(d^2) - \mu^2`" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=11;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry y="380" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BI_WUHRkU8jOXSc70Ab7-12" value="Không" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BI_WUHRkU8jOXSc70Ab7-1" target="BI_WUHRkU8jOXSc70Ab7-2">
+          <mxGeometry x="-0.6" y="20" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BI_WUHRkU8jOXSc70Ab7-13" value="Có" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BI_WUHRkU8jOXSc70Ab7-1" target="PT52hOmJ2-Wrh06CAvcp-1">
+          <mxGeometry x="-0.4545" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="170" />
+              <mxPoint x="160" y="280" />
+              <mxPoint x="80" y="280" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BI_WUHRkU8jOXSc70Ab7-1" value="`d` được cung cấp?" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=11;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="10" y="150" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BI_WUHRkU8jOXSc70Ab7-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BI_WUHRkU8jOXSc70Ab7-2" target="PT52hOmJ2-Wrh06CAvcp-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BI_WUHRkU8jOXSc70Ab7-2" value="`d = 3`" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=11;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="40" y="220" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BI_WUHRkU8jOXSc70Ab7-16" value="Không" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BI_WUHRkU8jOXSc70Ab7-3" target="BI_WUHRkU8jOXSc70Ab7-4">
+          <mxGeometry x="0.2001" y="20" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BI_WUHRkU8jOXSc70Ab7-17" value="Có" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BI_WUHRkU8jOXSc70Ab7-3" target="BI_WUHRkU8jOXSc70Ab7-7">
+          <mxGeometry x="-0.6667" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="60" />
+              <mxPoint x="400" y="170" />
+              <mxPoint x="310" y="170" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BI_WUHRkU8jOXSc70Ab7-3" value="`\sigma^2` được cung cấp?" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=11;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="240" y="40" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BI_WUHRkU8jOXSc70Ab7-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BI_WUHRkU8jOXSc70Ab7-4" target="BI_WUHRkU8jOXSc70Ab7-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BI_WUHRkU8jOXSc70Ab7-4" value="`\sigma^2 = E[v]`" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=11;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="270" y="110" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BI_WUHRkU8jOXSc70Ab7-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BI_WUHRkU8jOXSc70Ab7-7" target="BI_WUHRkU8jOXSc70Ab7-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BI_WUHRkU8jOXSc70Ab7-7" value="`Y = \mu + (X-\mu)(1 - \sigma^2/v)`" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=11;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="220" y="190" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BI_WUHRkU8jOXSc70Ab7-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BI_WUHRkU8jOXSc70Ab7-10" target="PT52hOmJ2-Wrh06CAvcp-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BI_WUHRkU8jOXSc70Ab7-10" value="`Y_(ij) = {(Y_(ij), &quot; nếu &quot; v_(ij) &amp;lt; \sigma^2),(\mu_(ij), &quot; nếu &quot; v_(ij) &amp;gt;= \sigma^2):}`" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=11;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="220" y="280" width="180" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

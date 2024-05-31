@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.23)  30 MAY 2024 17:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.23)  31 MAY 2024 14:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**d:/projects/proj_dsp/main.tex
-(d:/projects/proj_dsp/main.tex
+**d:/projects/proj_dsp/latex_report/main.tex
+(d:/projects/proj_dsp/latex_report/main.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
 (d:/texlive/2024/texmf-dist/tex/latex/base/article.cls
@@ -1126,14 +1126,14 @@ Package biblatex Info: ... file 'main.bbl' found.
 Package biblatex Info: Reference section=0 on input line 80.
 Package biblatex Info: Reference segment=0 on input line 80.
  (./title.tex
-<images/logo_BK.png, id=114, 389.0535pt x 393.8715pt>
-File: images/logo_BK.png Graphic file (type png)
-<use images/logo_BK.png>
-Package pdftex.def Info: images/logo_BK.png  used on input line 11.
+<../images/logo_BK.png, id=114, 389.0535pt x 393.8715pt>
+File: ../images/logo_BK.png Graphic file (type png)
+<use ../images/logo_BK.png>
+Package pdftex.def Info: ../images/logo_BK.png  used on input line 11.
 (pdftex.def)             Requested size: 113.81102pt x 115.21745pt.
  [1
 
-{d:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./images/logo_BK.png>]) (./main.toc [1])
+{d:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../images/logo_BK.png>]) (./main.toc [1])
 \tf@toc=\write7
 \openout7 = `main.toc'.
 
@@ -1143,76 +1143,86 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
                    \relax 
 l.20 \textbf{Độ phân giải}
                                  cho biết mức độ chi tiết của ả... [1{d:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-<images/gray_scale_resolution.jpg, id=168, 1104.125pt x 1388.18625pt>
-File: images/gray_scale_resolution.jpg Graphic file (type jpg)
-<use images/gray_scale_resolution.jpg>
-Package pdftex.def Info: images/gray_scale_resolution.jpg  used on input line 33.
+<../images/gray_scale_resolution.jpg, id=168, 1104.125pt x 1388.18625pt>
+File: ../images/gray_scale_resolution.jpg Graphic file (type jpg)
+<use ../images/gray_scale_resolution.jpg>
+Package pdftex.def Info: ../images/gray_scale_resolution.jpg  used on input line 33.
 (pdftex.def)             Requested size: 339.72592pt x 427.13481pt.
- [2 <./images/gray_scale_resolution.jpg>] [3]
-<images/salt_and_pepper_noise.png, id=188, 321.2pt x 429.605pt>
-File: images/salt_and_pepper_noise.png Graphic file (type png)
-<use images/salt_and_pepper_noise.png>
-Package pdftex.def Info: images/salt_and_pepper_noise.png  used on input line 103.
+ [2 <../images/gray_scale_resolution.jpg>] [3]
+<../images/salt_and_pepper_noise.png, id=188, 321.2pt x 429.605pt>
+File: ../images/salt_and_pepper_noise.png Graphic file (type png)
+<use ../images/salt_and_pepper_noise.png>
+Package pdftex.def Info: ../images/salt_and_pepper_noise.png  used on input line 103.
 (pdftex.def)             Requested size: 226.48395pt x 302.93056pt.
- [4] [5 <./images/salt_and_pepper_noise.png (PNG copy)>]) (./2_cong_cu.tex
+ [4] [5 <../images/salt_and_pepper_noise.png (PNG copy)>]) (./2_cong_cu.tex
 Overfull \hbox (27.84122pt too wide) in alignment at lines 19--37
  [] [] 
  []
 
 [6]
-<images/rpi3.png, id=208, 882.29625pt x 583.17876pt>
-File: images/rpi3.png Graphic file (type png)
-<use images/rpi3.png>
-Package pdftex.def Info: images/rpi3.png  used on input line 42.
+<../images/rpi3.png, id=208, 882.29625pt x 583.17876pt>
+File: ../images/rpi3.png Graphic file (type png)
+<use ../images/rpi3.png>
+Package pdftex.def Info: ../images/rpi3.png  used on input line 42.
 (pdftex.def)             Requested size: 339.72592pt x 224.54675pt.
-) (./3_thi_nghiem.tex [7 <./images/rpi3.png>]
-<images/denoise_flowchart.png, id=216, 683.55376pt x 362.35374pt>
-File: images/denoise_flowchart.png Graphic file (type png)
-<use images/denoise_flowchart.png>
-Package pdftex.def Info: images/denoise_flowchart.png  used on input line 13.
+) (./3_thi_nghiem.tex [7 <../images/rpi3.png>]
+<../images/denoise_flowchart.png, id=216, 683.55376pt x 362.35374pt>
+File: ../images/denoise_flowchart.png Graphic file (type png)
+<use ../images/denoise_flowchart.png>
+Package pdftex.def Info: ../images/denoise_flowchart.png  used on input line 13.
 (pdftex.def)             Requested size: 452.9679pt x 240.1218pt.
 LaTeX Font Info:    Trying to load font information for T5+cmtt on input line 25.
  (d:/texlive/2024/texmf-dist/tex/latex/vntex/t5cmtt.fd
 File: t5cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-) [8 <./images/denoise_flowchart.png>] (d:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
+) [8 <../images/denoise_flowchart.png>] (d:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/02/21 1.10 listings language file
 )
 LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 37.
  (d:/texlive/2024/texmf-dist/tex/latex/base/ts1cmtt.fd
 File: ts1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-<images/salt_pepper_noise_matlab.png, id=228, 440.39531pt x 219.06844pt>
-File: images/salt_pepper_noise_matlab.png Graphic file (type png)
-<use images/salt_pepper_noise_matlab.png>
-Package pdftex.def Info: images/salt_pepper_noise_matlab.png  used on input line 58.
+<../images/salt_pepper_noise_matlab.png, id=228, 440.39531pt x 219.06844pt>
+File: ../images/salt_pepper_noise_matlab.png Graphic file (type png)
+<use ../images/salt_pepper_noise_matlab.png>
+Package pdftex.def Info: ../images/salt_pepper_noise_matlab.png  used on input line 58.
 (pdftex.def)             Requested size: 339.72592pt x 168.99742pt.
- [9 <./images/salt_pepper_noise_matlab.png>]
-<images/median_filtering_algorithm.png, id=259, 349.305pt x 412.54124pt>
-File: images/median_filtering_algorithm.png Graphic file (type png)
-<use images/median_filtering_algorithm.png>
-Package pdftex.def Info: images/median_filtering_algorithm.png  used on input line 74.
-(pdftex.def)             Requested size: 339.72592pt x 401.25354pt.
+ [9 <../images/salt_pepper_noise_matlab.png>]
+<../images/median_filtering_algorithm.png, id=259, 282.05376pt x 472.76625pt>
+File: ../images/median_filtering_algorithm.png Graphic file (type png)
+<use ../images/median_filtering_algorithm.png>
+Package pdftex.def Info: ../images/median_filtering_algorithm.png  used on input line 74.
+(pdftex.def)             Requested size: 226.48395pt x 379.62741pt.
  (d:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/02/21 1.10 listings language file
-) [10 <./images/median_filtering_algorithm.png>] [11]
-<images/salt_peper_compare.png, id=314, 468.3096pt x 118.5228pt>
-File: images/salt_peper_compare.png Graphic file (type png)
-<use images/salt_peper_compare.png>
-Package pdftex.def Info: images/salt_peper_compare.png  used on input line 169.
+) [10 <../images/median_filtering_algorithm.png>] [11]
+<../images/salt_peper_compare.png, id=314, 468.3096pt x 118.5228pt>
+File: ../images/salt_peper_compare.png Graphic file (type png)
+<use ../images/salt_peper_compare.png>
+Package pdftex.def Info: ../images/salt_peper_compare.png  used on input line 169.
 (pdftex.def)             Requested size: 452.9679pt x 114.64503pt.
  [12]
-<images/gaussian_noise_matlab.png, id=349, 445.665pt x 201.00093pt>
-File: images/gaussian_noise_matlab.png Graphic file (type png)
-<use images/gaussian_noise_matlab.png>
-Package pdftex.def Info: images/gaussian_noise_matlab.png  used on input line 208.
+<../images/gaussian_noise_matlab.png, id=349, 445.665pt x 201.00093pt>
+File: ../images/gaussian_noise_matlab.png Graphic file (type png)
+<use ../images/gaussian_noise_matlab.png>
+Package pdftex.def Info: ../images/gaussian_noise_matlab.png  used on input line 208.
 (pdftex.def)             Requested size: 339.72592pt x 153.22234pt.
- [13 <./images/salt_peper_compare.png (PNG copy)>] [14 <./images/gaussian_noise_matlab.png>] [15] [16]
-<images/gaussian_compare.png, id=478, 464.4552pt x 326.1786pt>
-File: images/gaussian_compare.png Graphic file (type png)
-<use images/gaussian_compare.png>
-Package pdftex.def Info: images/gaussian_compare.png  used on input line 338.
-(pdftex.def)             Requested size: 452.9679pt x 318.1199pt.
-) (./4_conclusion.tex) (./ref.tex [17 <./images/gaussian_compare.png (PNG copy)>] [18]) [19
+ [13 <../images/salt_peper_compare.png (PNG copy)>]
+<../images/wiener_algorithm.png, id=378, 410.53375pt x 442.65375pt>
+File: ../images/wiener_algorithm.png Graphic file (type png)
+<use ../images/wiener_algorithm.png>
+Package pdftex.def Info: ../images/wiener_algorithm.png  used on input line 224.
+(pdftex.def)             Requested size: 339.72592pt x 366.30154pt.
+ [14 <../images/gaussian_noise_matlab.png>] [15 <../images/wiener_algorithm.png>] [16] [17]
+<../images/gaussian_compare.png, id=480, 230.3004pt x 393.6306pt>
+File: ../images/gaussian_compare.png Graphic file (type png)
+<use ../images/gaussian_compare.png>
+Package pdftex.def Info: ../images/gaussian_compare.png  used on input line 363.
+(pdftex.def)             Requested size: 271.7835pt x 464.57018pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (./4_conclusion.tex) (./ref.tex [18] [19 <../images/gaussian_compare.png (PNG copy)>]) [20
 
 ] (./main.aux)
  ***********
@@ -1220,24 +1230,24 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: C555A2C3042BCB2FA7932A4BD695DEEA;5513.
+(rerunfilecheck)             Checksum: 736EF08B28000DD8F787B5ACEDFDB8EB;5519.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34957 strings out of 474115
- 639754 string characters out of 5747696
- 2058190 words of memory out of 5000000
- 56526 multiletter control sequences out of 15000+600000
+ 34986 strings out of 474115
+ 640507 string characters out of 5747696
+ 2045190 words of memory out of 5000000
+ 56543 multiletter control sequences out of 15000+600000
  575102 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,10n,117p,1150b,2189s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,10n,117p,1163b,2189s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb><d:/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vnbx12.pfb><d:/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vnr12.pfb><d:/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vnr6.pfb><d:/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vnr8.pfb><d:/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vnti12.pfb><d:/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vntt10.pfb><d:/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vntt12.pfb>
-Output written on main.pdf (22 pages, 2431952 bytes).
+Output written on main.pdf (23 pages, 2287821 bytes).
 PDF statistics:
- 632 PDF objects out of 1000 (max. 8388607)
- 550 compressed objects within 6 object streams
- 272 named destinations out of 1000 (max. 500000)
- 279 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 652 PDF objects out of 1000 (max. 8388607)
+ 567 compressed objects within 6 object streams
+ 284 named destinations out of 1000 (max. 500000)
+ 284 words of extra memory for PDF output out of 10000 (max. 10000000)
 
