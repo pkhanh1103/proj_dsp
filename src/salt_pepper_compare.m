@@ -2,7 +2,7 @@
 clear all
 close all
 
-figure
+fig = figure("Position", [0 0 800 200]);
 tiledlayout(1,4)
 
 % Đọc ảnh xám gốc và hiển thị
@@ -25,12 +25,7 @@ nexttile, imshow(L), title(["Lọc trung vị 3x3", "(RPi 3)"])
 imwrite(L, '../output/salt_pepper_denoised_rpi3.png')
 
 % Sai số bình phương trung bình giữa ảnh gốc và ảnh đã lọc
-fprintf("MSE (MATLAB): %.4f\n", MSE(I, K));
-fprintf("MSE (RPi 3): %.4f\n", MSE(I, L));
+fprintf('MSE (MATLAB): %.4f\n', mse(I, K));
+fprintf('MSE (RPi 3): %.4f\n', mse(I, L));
 
-% Sai so binh phuong trung binh
-function out = MSE(im1, im2)
-    [nRows, nCols] = size(im1);
-    error = im1 - im2;
-    out = sum(error.^2, 'all') / (nRows * nCols);
-end
+exportgraphics(fig, '../output/salt_peper_compare.png')
