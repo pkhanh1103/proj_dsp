@@ -419,7 +419,7 @@ MSE (RPi 3, var=0.01): 39.0874
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=.5\linewidth]{../images/gaussian_compare.png}
+    \includegraphics[width=.65\linewidth]{../images/gaussian_compare.png}
     \caption{So sánh kết quả lọc nhiễu Gauss từ Raspberry Pi 3 so với MATLAB}
 \end{figure}
 
@@ -497,3 +497,53 @@ house & \multicolumn{1}{c|}{0.0140} & \multicolumn{1}{c|}{49.9374} & \multicolum
 ruler.512 & \multicolumn{1}{c|}{0.0269} & \multicolumn{1}{c|}{139.0348} & \multicolumn{1}{c|}{-47894.1489} & 147.9325 & \multicolumn{1}{c|}{119.3403} & 146.8871 \\ \hline
 \end{tabular}
 \end{table}
+
+\textbf{Nhận xét}: 
+
+\begin{center}
+    \textbf{Trường hợp tự ước lượng công suất nhiễu bằng phần mềm}:
+\end{center}
+
+MATLAB ước lượng tốt công suất nhiễu (Hình \ref{fig:hist_gaussian_compare_matlab_noise}), 
+do đó cho kết quả lọc tương đối tốt.
+Trong khi đó, thư viện scipy của Python trên Raspberry Pi 3 ước lượng công suất nhiễu chệch rất nhiều so với công suất nhiễu thực tế.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.75\linewidth]{../images/hist_gaussian_compare_matlab_noise.png}
+    \caption{Phân phối nhiễu ước lượng bởi MATLAB}
+    \label{fig:hist_gaussian_compare_matlab_noise}
+\end{figure}
+
+Về mặt sai số, kết quả lọc từ MATLAB cũng có xu hướng cho sai số bình phương trung bình 
+thấp hơn so với kết quả từ Python trên kit Raspberry Pi 3 (Hình \ref{fig:hist_gaussian_compare_default_mse}).
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.75\linewidth]{../images/hist_gaussian_compare_default_mse.png}
+    \caption{Phân phối MSE (Trường hợp mặc định)}
+    \label{fig:hist_gaussian_compare_default_mse}
+\end{figure}
+
+\begin{center}
+    \textbf{Trường hợp cung cấp trước tham số công suất nhiễu}:
+\end{center}
+
+Khi cung cấp trước tham số công suất nhiễu $\sigma^2 = 0.01$, 
+bộ kit lại cho kết quả lọc tốt hơn MATLAB.
+Phân phối MSE cho Raspberry Pi 3 có xu hướng nhỏ hơn so với của MATLAB (Hình \ref{fig:hist_gaussian_compare_var0p01_mse}).
+Trong 39 ảnh được dùng để so sánh giữa MATLAB và Python trên Raspberry Pi 3, có đến gần 2/3 tổng số ảnh mà bộ kit cho kết quả lọc tốt hơn (Hình \ref{fig:pie_gaussian_compare_var0p01_mse})
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.75\linewidth]{../images/hist_gaussian_compare_var0p01_mse.png}
+    \caption{Phân phối MSE (Trường hợp cung cấp tham số nhiễu)}
+    \label{fig:hist_gaussian_compare_var0p01_mse}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.75\linewidth]{../images/pie_gaussian_compare_var0p01_mse.png}
+    \caption{Tỉ lệ lọc cho kết quả tốt hơn (Trường hợp cung cấp tham số nhiễu)}
+    \label{fig:pie_gaussian_compare_var0p01_mse}
+\end{figure}

@@ -1,18 +1,22 @@
 # Fdb version 4
-["biber main"] 1717142548.40487 "main.bcf" "main.bbl" "main" 1717155349.99447 0
-  "main.bcf" 1717155349.31005 107762 a0215bd1fca63de3d3e50eff100b18c8 "pdflatex"
+["biber main"] 1717142548.40487 "main.bcf" "main.bbl" "main" 1717176244.98008 0
+  "main.bcf" 1717176244.26299 107762 a0215bd1fca63de3d3e50eff100b18c8 "pdflatex"
   "refs.bib" 1717142541.2407 295 219ce722218b7cb1d357e37fbfb072e3 ""
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1717155343.43378 "d:/projects/proj_dsp/latex_report/main.tex" "main.pdf" "main" 1717155349.99727 0
+["pdflatex"] 1717176238.16408 "d:/projects/proj_dsp/latex_report/main.tex" "main.pdf" "main" 1717176244.98181 0
   "../images/denoise_flowchart.png" 1717060910.3917 50052 b669871df2897b9d7460dd705da48769 ""
   "../images/gaussian_compare.png" 1717142541.20837 307913 b506145dd2b4dfbc61ed050efbe5e1b2 ""
   "../images/gaussian_noise_matlab.png" 1716949269.3301 130736 f0c524a88211ac5f558b739a54649dc7 ""
   "../images/gray_scale_resolution.jpg" 1716949269.13826 162784 02418c7d34a9f3654ce336d346557d07 ""
+  "../images/hist_gaussian_compare_default_mse.png" 1717175983.38454 16486 0391c86471587bacc16669095686b499 ""
+  "../images/hist_gaussian_compare_matlab_noise.png" 1717175979.88122 13518 1280ff11cb6f78edf2d6f08ae384e64e ""
+  "../images/hist_gaussian_compare_var0p01_mse.png" 1717175985.697 16883 41cebf7a0ca466ad6ceefbe3cde7ccad ""
   "../images/logo_BK.png" 1716949269.07917 73720 f8b32583c14100c513a3ff3ebf138290 ""
   "../images/median_filtering_algorithm.png" 1717142541.20837 35923 4cd65ab577d34be70914ac275a789c30 ""
+  "../images/pie_gaussian_compare_var0p01_mse.png" 1717175987.70287 19380 72e90c19b0bebd5744ba82113420666e ""
   "../images/rpi3.png" 1716949269.11645 1010404 d00647326d78ef75c0780cb0a3fc17ec ""
   "../images/salt_and_pepper_noise.png" 1716949269.15926 82829 7689d7a3f4487a70e8538017d3903382 ""
   "../images/salt_peper_compare.png" 1717142541.21882 89452 f87ff84299be2f0200bd8f13551434c3 ""
@@ -20,8 +24,8 @@
   "../images/wiener_algorithm.png" 1717142541.21963 51730 5d21d68f466ddc1f4015c4ce05e3c68c ""
   "1_ly_thuyet.tex" 1717142541.21963 8852 8c19e8feb5488bd7554015903a7f3017 ""
   "2_cong_cu.tex" 1717142541.21963 1728 5bdeda449ac26797eb8ded87ea182829 ""
-  "3_thi_nghiem.tex" 1717155334.56467 25303 86056e5271f1dbe5038596ad50b4879c ""
-  "4_conclusion.tex" 1717142541.21963 245 b46ccb024fb5c1ef1f0ef2244f925384 ""
+  "3_thi_nghiem.tex" 1717176034.61584 27734 25b4d7733371ec38ddc636723a6ac13d ""
+  "4_conclusion.tex" 1717176229.45975 948 0aba358b1d5b7bcf9f4034ad50dc35f8 ""
   "d:/projects/proj_dsp/latex_report/main.tex" 1717152295.65821 4325 68bda79010d180caceb0c2f636a77fad ""
   "d:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1716421980.89039 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "d:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1716422339.12963 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -246,11 +250,11 @@
   "d:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1716423990 5513072 a94ebc97551fc1d79a1276395192e7dd ""
   "d:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1716424213 8221634 20ce79962d6648e01ca52cd75e97973f ""
   "d:/texlive/2024/texmf.cnf" 1716423967.21308 713 baa45e065482d44c4cd81b98ef72c63b ""
-  "main.aux" 1717155349.29394 6900 1570934a7ee1eb0ab3ed1f626b89af08 "pdflatex"
+  "main.aux" 1717176244.24973 7622 68155e00832bcbb0edc60128ac54213e "pdflatex"
   "main.bbl" 1717142550.69324 1990 0435fe7c432e416020b89712b3cfb3f2 "biber main"
-  "main.out" 1717155349.29394 6007 61a9858b2268f796fc8a505413c7b7bf "pdflatex"
-  "main.run.xml" 1717155349.31005 2299 33d8dfeb54dc04cad67f98afaa10639d "pdflatex"
-  "main.toc" 1717155349.31005 2884 2767d06e3d8abb83875be16368e2b306 "pdflatex"
+  "main.out" 1717176244.25077 5067 9c38ff39c37e1fd5da224738c5ef05a0 "pdflatex"
+  "main.run.xml" 1717176244.26299 2299 33d8dfeb54dc04cad67f98afaa10639d "pdflatex"
+  "main.toc" 1717176244.271 2456 119989f5e99b3a059765d72152b93c82 "pdflatex"
   "ref.tex" 1717142541.2407 140 4e5200e178b70dae24b0b08aed8c16ce ""
   "title.tex" 1717142541.2407 1467 8afdf66e6e35a70b4561bce2d7c7ae8a ""
   (generated)

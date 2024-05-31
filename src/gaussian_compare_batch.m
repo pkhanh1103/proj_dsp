@@ -18,7 +18,12 @@ fprintf("%-15s%-20s%-25s%-10s%-10s\n", ...
 fprintf("%-15s%-10s%-10s%-15s%-10s%-10s%-10s\n", ...
      "Filename", "Noise", "MSE", "Noise", "MSE", "MSE", "MSE");
 
-arr_K1 = [];
+arr_K1_noise = [];
+arr_K1_mse   = [];
+arr_L1_noise = [];
+arr_L1_mse   = [];
+arr_K2_mse   = [];
+arr_L2_mse   = [];
 
 for i = 1:length(f)
     fullpath = strcat(path_to_dataset, f(i).name);
@@ -46,11 +51,49 @@ for i = 1:length(f)
     L2 = reshape(L2, 256, 256);
     imwrite(L2, strcat(path_to_output_rpi3_var0p01, filename, ".png"))
 
+    % Tính MSE
+    K1_mse = mse(I,K1);
+    K2_mse = mse(I,K2);
+    L1_mse = mse(I,L1);
+    L2_mse = mse(I,L2);
+
     % So sánh
     fprintf("%-15s%-10.4f%-10.4f%-15.4f%-10.4f%-10.4f%-10.4f\n", ...
      filename, K1_noise, mse(I,K1), L1_noise, mse(I,L1), ...
      mse(I,K2), mse(I,L2));
 
     % Lưu vào mảng
-    arr_K1 = [arr_K1 [K1]];
+    arr_K1_noise = [arr_K1_noise [K1_noise]];
+    arr_K1_mse   = [arr_K1_mse   [K1_mse]];
+    arr_L1_noise = [arr_L1_noise [L1_noise]];
+    arr_L1_mse   = [arr_L1_mse   [L1_mse]];
+    arr_K2_mse   = [arr_K2_mse   [K2_mse]];
+    arr_L2_mse   = [arr_L2_mse   [L2_mse]];
 end
+
+fig1 = figure("Position", [0 0 600 300]);
+histogram(arr_K1_noise, 20);
+title('Phân phối nhiễu ước lượng bởi MATLAB');
+exportgraphics(fig1, '../output/hist_gaussian_compare_matlab_noise.png');
+
+fig2 = figure("Position", [0 0 600 300]);
+histogram(arr_K1_mse, 20);
+hold on;
+histogram(arr_L1_mse, 20);
+title('Phân phối MSE (Trường hợp mặc định)');
+legend('MATLAB', 'RPi 3');
+exportgraphics(fig2, '../output/hist_gaussian_compare_default_mse.png');
+
+fig3 = figure("Position", [0 0 600 300]);
+histogram(arr_K2_mse, 20);
+hold on;
+histogram(arr_L2_mse, 20);
+title('Phân phối MSE (Trường hợp cung cấp tham số nhiễu)');
+legend('MATLAB', 'RPi 3');
+exportgraphics(fig3, '../output/hist_gaussian_compare_var0p01_mse.png');
+
+fig4 = figure("Position", [0 0 500 400]);
+pie(categorical(arr_L2_mse < arr_K2_mse, [true false], {'RPi 3' 'MATLAB'}));
+title(["Tỉ lệ lọc cho kết quả tốt hơn", ...
+    "(Trường hợp cung cấp tham số nhiễu)"]);
+exportgraphics(fig4, '../output/pie_gaussian_compare_var0p01_mse.png');

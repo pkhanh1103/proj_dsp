@@ -21,9 +21,5 @@
 \contentsline {subsubsection}{\numberline {5.2.2}Lọc ảnh nhiễu Gauss bằng Python trên Raspberry Pi 3}{15}{subsubsection.5.2.2}%
 \contentsline {subsubsection}{\numberline {5.2.3}So sánh kết quả với MATLAB}{18}{subsubsection.5.2.3}%
 \contentsline {subsubsection}{\numberline {5.2.4}So sánh trên toàn bộ dữ liệu}{21}{subsubsection.5.2.4}%
-\contentsline {section}{\numberline {6}Kết luận}{23}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Tóm tắt những phát hiện chính}{23}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Mục tiêu đã đạt được}{23}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}Tính hiệu quả của từng phương pháp}{23}{subsection.6.3}%
-\contentsline {subsection}{\numberline {6.4}Hướng phát triển của đề tài}{23}{subsection.6.4}%
-\contentsline {section}{Tài liệu tham khảo}{24}{subsection.6.4}%
+\contentsline {section}{\numberline {6}Kết luận}{25}{section.6}%
+\contentsline {section}{Tài liệu tham khảo}{26}{section.6}%
